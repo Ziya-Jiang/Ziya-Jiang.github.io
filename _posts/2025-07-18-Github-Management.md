@@ -1,150 +1,160 @@
 ---
 layout: post
-title: GitHub网站管理指南
+title: GitHub Website Management Guide
 date: 2025-07-18 14:24:00
-description: 记录如何管理个人网站部署的GitHub仓库，包括代码提交、分支管理、部署流程等
-tags: github website deployment
+description: A comprehensive guide to managing GitHub repositories for personal website deployment, including code commits, branch management, and deployment workflows
+tags: github website deployment automation
 categories: web-development
 ---
 
-# GitHub网站管理指南
+This blog post documents how to manage GitHub repositories for personal website deployment. My GitHub username is `Ziya-Jiang`, and this guide will cover the complete workflow from local development to GitHub Pages deployment.
 
-本博客主要记录如何管理个人网站部署的GitHub仓库。我的GitHub用户名是 `Ziya-Jiang`，本文将详细介绍从本地开发到GitHub Pages部署的完整流程。
+## Part 1: Committing Updated Repository to Main Branch
 
-## 第一部分：将更新后的仓库提交到main分支
+### 1. Initialize Local Repository
 
-### 1. 初始化本地仓库
-
-首先，确保您的本地项目已经初始化为Git仓库：
+First, ensure your local project is initialized as a Git repository:
 
 ```bash
-# 如果还没有初始化Git仓库
+# Initialize Git repository if not already done
 git init
 
-# 添加远程仓库（如果还没有添加）
+# Add remote repository (if not already added)
 git remote add origin https://github.com/Ziya-Jiang/Ziya-Jiang.github.io.git
 ```
 
-### 2. 检查当前状态
+### 2. Check Current Status
 
-在提交之前，先检查当前的工作状态：
+Before committing, check the current working status:
 
 ```bash
-# 查看当前分支
+# Check current branch
 git branch
 
-# 查看文件状态
+# Check file status
 git status
 
-# 查看修改的文件
+# View modified files
 git diff
 ```
 
-### 3. 添加文件到暂存区
+### 3. Add Files to Staging Area
 
-将所有修改的文件添加到Git暂存区：
+Add all modified files to the Git staging area:
 
 ```bash
-# 添加所有文件
+# Add all files
 git add .
 
-# 或者添加特定文件
-git add _posts/2025-07-18-Github网站管理.md
+# Or add specific files
+git add _posts/2025-07-18-Github-Management.md
 git add _config.yml
 ```
 
-### 4. 提交更改
+### 4. Commit Changes
 
-使用有意义的提交信息提交更改：
+Commit changes with meaningful commit messages:
 
 ```bash
-# 提交更改
-git commit -m "feat: 添加GitHub网站管理博客文章
+# Commit changes
+git commit -m "feat: add GitHub website management blog post
 
-- 新增GitHub仓库管理指南
-- 包含代码提交和分支管理流程
-- 更新网站配置和内容"
+- Add comprehensive GitHub repository management guide
+- Include code commit and branch management workflow
+- Update website configuration and content"
 ```
 
-### 5. 推送到main分支
+### 5. Push to Main Branch
 
-将本地更改推送到GitHub的main分支：
+Push local changes to the GitHub main branch:
 
 ```bash
-# 推送到main分支
+# Push to main branch
 git push origin main
 
-# 如果是第一次推送，可能需要设置上游分支
+# If first time pushing, may need to set upstream branch
 git push -u origin main
 ```
 
-### 6. 验证推送结果
+### 6. Verify Push Results
 
-推送完成后，可以通过以下方式验证：
+After pushing, verify the results:
 
 ```bash
-# 查看远程分支状态
+# Check remote branch status
 git remote -v
 
-# 查看提交历史
+# View commit history
 git log --oneline -5
 ```
 
-### 7. 常见问题解决
+### 7. Troubleshooting Common Issues
 
-#### 如果遇到推送冲突：
+#### If you encounter push conflicts:
 
 ```bash
-# 先拉取远程更改
+# First pull remote changes
 git pull origin main
 
-# 解决冲突后重新提交
+# Resolve conflicts and recommit
 git add .
-git commit -m "resolve: 解决合并冲突"
+git commit -m "resolve: fix merge conflicts"
 git push origin main
 ```
 
-#### 如果需要强制推送（谨慎使用）：
+#### If force push is needed (use with caution):
 
 ```bash
-# 强制推送（仅在必要时使用）
+# Force push (use only when necessary)
 git push --force origin main
 ```
 
-### 8. 自动化脚本
+### 8. Automation Script
 
-为了简化流程，可以创建一个自动化脚本：
+To simplify the process, create an automation script:
 
 ```bash
 #!/bin/bash
 # deploy.sh
 
-echo "开始部署流程..."
+echo "Starting deployment process..."
 
-# 添加所有更改
+# Add all changes
 git add .
 
-# 提交更改
-git commit -m "update: $(date '+%Y-%m-%d %H:%M:%S') 自动更新"
+# Commit changes
+git commit -m "update: $(date '+%Y-%m-%d %H:%M:%S') auto update"
 
-# 推送到main分支
+# Push to main branch
 git push origin main
 
-echo "部署完成！"
+echo "Deployment completed!"
 ```
 
-使用方法：
+Usage:
+
 ```bash
 chmod +x deploy.sh
 ./deploy.sh
 ```
 
-### 9. 最佳实践
+### 9. Best Practices
 
-1. **定期提交**：不要积累太多更改再提交
-2. **有意义的提交信息**：使用清晰的提交信息描述更改内容
-3. **分支管理**：对于重要更改，考虑使用功能分支
-4. **备份**：定期备份重要文件
-5. **测试**：推送前在本地测试网站功能
+1. **Regular commits**: Don't accumulate too many changes before committing
+2. **Meaningful commit messages**: Use clear commit messages to describe changes
+3. **Branch management**: Consider using feature branches for important changes
+4. **Backup**: Regularly backup important files
+5. **Testing**: Test website functionality locally before pushing
+
+### 10. Next Steps
+
+In the next part, we will cover:
+
+- GitHub Pages configuration and deployment
+- Custom domain setup
+- Automated deployment workflows
+- Performance optimization and monitoring
 
 ---
+
+_This post will be continuously updated to document the complete GitHub website management workflow and experience sharing._
