@@ -7,8 +7,6 @@ tags: research computer-vision robotics
 categories: research-updates
 ---
 
-# Summer Vacation Research Summary
-
 As of July 1st, my summer vacation officially began, and three weeks have already passed. Here's a chronological summary of my research progress and achievements.
 
 ## Week 1: Concept Map Integration and System Development
