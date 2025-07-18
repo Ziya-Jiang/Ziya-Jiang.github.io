@@ -72,7 +72,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-a-post-with-plotly-js",
+            },{id: "post-github-management-guide",
+        
+          title: "Github Management Guide",
+        
+        description: "A comprehensive guide to managing GitHub repositories for personal website deployment, including code commits, branch management, and deployment workflows",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/github-management/";
+          
+        },
+      },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
