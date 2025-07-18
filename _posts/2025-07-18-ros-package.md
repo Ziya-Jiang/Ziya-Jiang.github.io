@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Understanding ROS Packages: A Comprehensive Guide
-date: 2025-07-18 12:00:00-0400
+date: 2025-07-18 23:47:00-0400
 description: A comprehensive guide to ROS packages, their structure, purpose, and development workflow
 tags: ros robotics software-engineering
 categories: robotics-development
