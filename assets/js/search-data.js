@@ -72,7 +72,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-3dgs-cd算法深度解析",
+            },{id: "post-yanbot-analysis",
+        
+          title: "YanBot Analysis",
+        
+        description: "A comprehensive summary of my threqe-week summer research progress,including concept map integration, system demonstrations, and future plans",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/YanBot-analysis/";
+          
+        },
+      },{id: "post-3dgs-cd算法深度解析",
         
           title: "3DGS-CD算法深度解析",
         
