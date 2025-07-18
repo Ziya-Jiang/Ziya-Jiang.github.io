@@ -72,7 +72,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-github-management-guide",
+            },{id: "post-summer-vacation-research-summary",
+        
+          title: "Summer Vacation Research Summary",
+        
+        description: "A comprehensive summary of my three-week summer research progress, including concept map integration, system demonstrations, and future plans",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/summer_vacation_summary/";
+          
+        },
+      },{id: "post-github-management-guide",
         
           title: "Github Management Guide",
         
