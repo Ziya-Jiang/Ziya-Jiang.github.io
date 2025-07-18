@@ -87,6 +87,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: Academic Journey # blog_name will be displayed in your blog page
+future: true
 blog_description: Daily progress of my academic journey is shared here.
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts

@@ -1,10 +1,10 @@
 ---
 layout: post
-title: GitHub Website Management Guide
-date: 2025-07-18 11:55:00
+title: Github Management Guide
+date: 2025-07-18 11:59:00-0400
 description: A comprehensive guide to managing GitHub repositories for personal website deployment, including code commits, branch management, and deployment workflows
-tags: github website deployment automation
-categories: web-development
+tags: formatting charts
+categories: sample-posts
 ---
 
 This blog post documents how to manage GitHub repositories for personal website deployment. My GitHub username is `Ziya-Jiang`, and this guide will cover the complete workflow from local development to GitHub Pages deployment.
