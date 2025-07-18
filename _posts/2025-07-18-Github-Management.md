@@ -132,7 +132,6 @@ echo "Deployment completed!"
 ```
 
 Usage:
-
 ```bash
 chmod +x deploy.sh
 ./deploy.sh
@@ -149,12 +148,10 @@ chmod +x deploy.sh
 ### 10. Next Steps
 
 In the next part, we will cover:
-
 - GitHub Pages configuration and deployment
 - Custom domain setup
 - Automated deployment workflows
 - Performance optimization and monitoring
 
 ---
-
-_This post will be continuously updated to document the complete GitHub website management workflow and experience sharing._
+ 
