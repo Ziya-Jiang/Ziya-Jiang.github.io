@@ -72,7 +72,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-summer-vacation-research-summary",
+            },{id: "post-3dgs-cd算法深度解析",
+        
+          title: "3DGS-CD算法深度解析",
+        
+        description: "深入分析3D Gaussian Splatting Change Detection算法的核心原理和实现流程",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/3dgs-cd-analysis/";
+          
+        },
+      },{id: "post-summer-vacation-research-summary",
         
           title: "Summer Vacation Research Summary",
         
@@ -92,6 +103,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2025/github-management/";
+          
+        },
+      },{id: "post-",
+        
+          title: "",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/2025-07-18-ros-package/";
           
         },
       },{id: "post-a-post-with-plotly-js",

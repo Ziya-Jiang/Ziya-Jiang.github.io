@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://ziya-jiang.github.io/feed.xml" rel="self" type="application/atom+xml"/><link href="https://ziya-jiang.github.io/" rel="alternate" type="text/html" hreflang="en"/><updated>2025-07-18T05:57:53+00:00</updated><id>https://ziya-jiang.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design. </subtitle><entry><title type="html">Summer Vacation Research Summary</title><link href="https://ziya-jiang.github.io/blog/2025/summer_vacation_summary/" rel="alternate" type="text/html" title="Summer Vacation Research Summary"/><published>2025-07-18T16:00:00+00:00</published><updated>2025-07-18T16:00:00+00:00</updated><id>https://ziya-jiang.github.io/blog/2025/summer_vacation_summary</id><content type="html" xml:base="https://ziya-jiang.github.io/blog/2025/summer_vacation_summary/"><![CDATA[<h1 id="summer-vacation-research-summary">Summer Vacation Research Summary</h1> <p>As of July 1st, my summer vacation officially began, and three weeks have already passed. Here’s a chronological summary of my research progress and achievements.</p> <h2 id="week-1-concept-map-integration-and-system-development">Week 1: Concept Map Integration and System Development</h2> <p>During the first week, I made significant progress in replacing CLIP with concept maps as explicit storage for spatial understanding. The Gaussian Memory Field now completely handles the imagination work without needing to dive into CLIP features.</p> <p>I also completed the main components of the KARA system, including:</p> <ul> <li><strong>Concept map-based human-computer dialogue</strong>: Implemented natural language interaction using spatial concept understanding</li> <li><strong>Top-down binary navigation graph</strong>: Developed efficient path planning using hierarchical spatial representations</li> </ul> <p>This week laid the foundation for a more robust and interpretable spatial reasoning system.</p> <h2 id="week-2-system-integration-and-real-world-demonstrations">Week 2: System Integration and Real-world Demonstrations</h2> <p>The second week focused on system integration and real-world testing. I conducted live demonstrations and recordings in three different environments:</p> <ul> <li><strong>Conference room</strong>: Testing system performance in controlled indoor environments</li> <li><strong>Senior care facility</strong>: Evaluating adaptability in complex living spaces</li> <li><strong>Unmanned supermarket</strong>: Assessing navigation capabilities in commercial settings</li> </ul> <h3 id="performance-bottlenecks-identified">Performance Bottlenecks Identified:</h3> <ul> <li><strong>Navigation limitations</strong>: The system’s path planning showed performance constraints</li> <li><strong>Point cloud mismatching</strong>: Objects appeared as duplicates (ghosting effect) due to registration issues</li> </ul> <p>Despite these challenges, the demonstrations successfully showcased the system’s potential and highlighted areas for improvement.</p> <h2 id="week-3-change-detection-research-and-website-development">Week 3: Change Detection Research and Website Development</h2> <p>The third week was dedicated to advancing change detection capabilities and personal development:</p> <h3 id="research-progress">Research Progress:</h3> <ul> <li><strong>Change detection strategy discussions</strong>: Had detailed discussions with Li Xia and Jin Jin on implementation strategies for change detection</li> <li><strong>3DGSSlam recordings</strong>: Completed real-world recordings in three scenarios, successfully reproducing the authoritative 3DGS-CD (3D Gaussian Splatting Change Detection) results</li> <li><strong>Algorithm robustness analysis</strong>: Found that the current algorithm has limited robustness, only detecting significant scene changes</li> </ul> <h3 id="personal-development">Personal Development:</h3> <ul> <li><strong>Personal website creation</strong>: Built this blog website that you’re currently reading - I’m quite pleased with the result!</li> </ul> <h2 id="future-plans-next-two-weeks">Future Plans (Next Two Weeks)</h2> <p>Looking ahead to the remaining two weeks of summer vacation, I plan to focus on:</p> <ul> <li><strong>Change detection integration</strong>: Integrating and modifying the change detection algorithms</li> <li><strong>System optimization</strong>: Addressing the performance bottlenecks identified during demonstrations</li> <li><strong>Algorithm robustness improvement</strong>: Enhancing the change detection algorithm’s sensitivity and reliability</li> </ul> <h2 id="key-achievements">Key Achievements</h2> <ol> <li><strong>Conceptual breakthrough</strong>: Successfully replaced CLIP with concept maps for spatial understanding</li> <li><strong>System development</strong>: Completed the main KARA system with dialogue and navigation capabilities</li> <li><strong>Real-world validation</strong>: Conducted comprehensive demonstrations in multiple environments</li> <li><strong>Research advancement</strong>: Made progress in change detection and 3D Gaussian Splatting</li> <li><strong>Personal growth</strong>: Developed technical and communication skills through presentations and discussions</li> </ol> <h2 id="technical-insights">Technical Insights</h2> <p>The transition from CLIP to concept maps represents a significant architectural improvement, providing:</p> <ul> <li><strong>Better interpretability</strong>: Spatial concepts are now explicitly represented</li> <li><strong>Improved efficiency</strong>: Reduced computational overhead compared to CLIP feature extraction</li> <li><strong>Enhanced flexibility</strong>: More adaptable to different spatial reasoning tasks</li> </ul> <h2 id="challenges-and-lessons-learned">Challenges and Lessons Learned</h2> <ul> <li><strong>Navigation optimization</strong>: Need to improve path planning algorithms for better real-time performance</li> <li><strong>Point cloud registration</strong>: Address ghosting issues through better registration techniques</li> <li><strong>Change detection robustness</strong>: Develop more sensitive algorithms for subtle scene changes</li> </ul> <hr/> <p><em>This summer has been incredibly productive, combining theoretical research with practical implementation. I’m excited to continue this work and see where the next two weeks take us.</em></p>]]></content><author><name></name></author><category term="research-updates"/><category term="research"/><category term="computer-vision"/><category term="robotics"/><summary type="html"><![CDATA[A comprehensive summary of my three-week summer research progress, including concept map integration, system demonstrations, and future plans]]></summary></entry><entry><title type="html">Github Management Guide</title><link href="https://ziya-jiang.github.io/blog/2025/github-management/" rel="alternate" type="text/html" title="Github Management Guide"/><published>2025-07-18T15:59:00+00:00</published><updated>2025-07-18T15:59:00+00:00</updated><id>https://ziya-jiang.github.io/blog/2025/github-management</id><content type="html" xml:base="https://ziya-jiang.github.io/blog/2025/github-management/"><![CDATA[<p>This blog post documents how to manage GitHub repositories for personal website deployment. My GitHub username is <code class="language-plaintext highlighter-rouge">Ziya-Jiang</code>, and this guide will cover the complete workflow from local development to GitHub Pages deployment.</p> <h2 id="part-1-committing-updated-repository-to-main-branch">Part 1: Committing Updated Repository to Main Branch</h2> <h3 id="1-initialize-local-repository">1. Initialize Local Repository</h3> <p>First, ensure your local project is initialized as a Git repository:</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Initialize Git repository if not already done</span>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://ziya-jiang.github.io/feed.xml" rel="self" type="application/atom+xml"/><link href="https://ziya-jiang.github.io/" rel="alternate" type="text/html" hreflang="en"/><updated>2025-07-18T15:31:22+00:00</updated><id>https://ziya-jiang.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design. </subtitle><entry><title type="html">3DGS-CD算法深度解析</title><link href="https://ziya-jiang.github.io/blog/2025/3dgs-cd-analysis/" rel="alternate" type="text/html" title="3DGS-CD算法深度解析"/><published>2025-07-18T18:30:00+00:00</published><updated>2025-07-18T18:30:00+00:00</updated><id>https://ziya-jiang.github.io/blog/2025/3dgs-cd-analysis</id><content type="html" xml:base="https://ziya-jiang.github.io/blog/2025/3dgs-cd-analysis/"><![CDATA[<h1 id="3dgs-cd算法深度解析">3DGS-CD算法深度解析</h1> <p>3DGS-CD（3D Gaussian Splatting Change Detection）是一种基于3D高斯散射的场景变化检测算法。本文将从技术角度深入解析其核心原理和实现流程。</p> <h2 id="算法概述">算法概述</h2> <p>3DGS-CD的核心思想是通过构建场景的3D高斯模型，在不同时间点之间检测物体的移动、删除和新增。整个流程可以分为以下几个关键步骤：</p> <h2 id="1-旧场景扫描进电脑">1. 旧场景”扫描进电脑”</h2> <h3 id="技术实现">技术实现</h3> <ul> <li><strong>输入</strong>：变化前拍摄的多张RGB照片</li> <li><strong>处理流程</strong>： <ol> <li>使用SfM（Structure from Motion）算法求解相机姿态</li> <li>基于相机姿态训练3D Gaussian Splatting模型</li> </ol> </li> </ul> <h3 id="技术优势">技术优势</h3> <p>3DGS相比传统NeRF具有显著优势：</p> <ul> <li><strong>渲染速度</strong>：比NeRF的射线积分快几个数量级</li> <li><strong>实时性</strong>：能够实现实时渲染</li> <li><strong>效率</strong>：将场景表面”撒满”会发光的小高斯点，实现高效渲染</li> </ul> <h2 id="2-新场景定位与匹配">2. 新场景定位与匹配</h2> <h3 id="核心思想">核心思想</h3> <p>用少量新照片（甚至1张）在旧模型中定位，因为大部分物体未发生变化，仍能匹配到准确位姿。</p> <h3 id="技术挑战">技术挑战</h3> <ul> <li>需要处理视角变化</li> <li>应对光照条件差异</li> <li>处理部分遮挡情况</li> </ul> <h2 id="3-同一视角下的找不同">3. 同一视角下的”找不同”</h2> <h3 id="传统方法的局限">传统方法的局限</h3> <p>传统像素差异方法受以下因素影响：</p> <ul> <li>光照变化</li> <li>遮挡情况</li> <li>视角微小差异</li> </ul> <h3 id="3dgs-cd的改进">3DGS-CD的改进</h3> <ol> <li><strong>渲染对比</strong>：用3DGS将旧场景渲染成图片，与真实新照片对比</li> <li><strong>语义特征</strong>：使用EfficientSAM（轻量版Segment-Anything）的特征向量</li> <li><strong>相似度计算</strong>：计算两张图在语义嵌入空间的余弦差</li> <li><strong>自动阈值</strong>：使用Otsu算法自动确定”可能变动区域”的阈值</li> </ol> <h2 id="4-精准物体分割">4. 精准物体分割</h2> <h3 id="双重分割策略">双重分割策略</h3> <p>对每个差异框，分别在两个图像中进行分割：</p> <ul> <li><strong>旧渲染图</strong>：得到move-out掩码（物体原位置）</li> <li><strong>新照片</strong>：得到move-in掩码（物体新位置或新出现）</li> </ul> <h3 id="技术细节">技术细节</h3> <ul> <li>使用EfficientSAM进行高置信度掩码生成</li> <li>确保分割的精确性和一致性</li> </ul> <h2 id="5-多视角3d模板生成">5. 多视角3D模板生成</h2> <h3 id="核心步骤">核心步骤</h3> <h4 id="a-深度回投">a. 深度回投</h4> <ul> <li>使用旧渲染深度将每个2D掩码回投成点云</li> <li>提取SuperPoint特征点，同样回投成稀疏3D特征</li> </ul> <h4 id="b-多视角匹配">b. 多视角匹配</h4> <ul> <li>使用Hausdorff距离 + EfficientSAM嵌入相似度进行匹配</li> <li>采用匈牙利算法进行最优配对</li> </ul> <h4 id="c-模板生成">c. 模板生成</h4> <p>结果：每个被移动/删除的物体都有一份”合并后的多视角点云 + 特征”——称为3D物体模板</p> <h2 id="6-物体类型判断与3d分割">6. 物体类型判断与3D分割</h2> <h3 id="变化类型识别">变化类型识别</h3> <ul> <li><strong>移动物体</strong>：模板中的3D特征在新照片中找到足够匹配点</li> <li><strong>删除物体</strong>：模板中的特征在新照片中匹配不到</li> <li><strong>新增物体</strong>：新照片中独立出现而旧模板无匹配的物体</li> </ul> <h3 id="完整体素掩码生成">完整体素掩码生成</h3> <ul> <li>将模板投影到更多旧照片上</li> <li>使用SAM进行分割</li> <li>进行多视角体素投票（多数表决 &gt;0.95视为在物体内）</li> </ul> <h2 id="7-6d位姿估计与优化">7. 6D位姿估计与优化</h2> <h3 id="粗估计阶段">粗估计阶段</h3> <ul> <li>使用2D-3D对应点运行RANSAC-PnP算法</li> <li>获得初始位姿估计</li> </ul> <h3 id="精细优化阶段">精细优化阶段</h3> <ul> <li>将属于物体的高斯整体平移旋转到估计位姿</li> <li>与新照片进行”渲染-对比”</li> <li>通过反向传播微调相机与物体姿态</li> <li>其他高斯参数保持冻结</li> <li>基于渲染的光度误差进行优化</li> </ul> <h2 id="8-遮挡处理与任意视角渲染">8. 遮挡处理与任意视角渲染</h2> <h3 id="遮挡检测机制">遮挡检测机制</h3> <ol> <li>按需渲染高斯模型（包含已移动的物体）的深度</li> <li>检查每个像素回投后的真实深度是否落在物体体素内</li> <li>如果不在体素内，视为被遮挡并抹掉</li> </ol> <h3 id="技术优势-1">技术优势</h3> <ul> <li>能够处理任意视角下的遮挡情况</li> <li>生成无穿帮的2D掩码</li> <li>保证渲染结果的视觉一致性</li> </ul> <h2 id="算法特点总结">算法特点总结</h2> <h3 id="技术优势-2">技术优势</h3> <ol> <li><strong>高效性</strong>：基于3DGS的快速渲染</li> <li><strong>鲁棒性</strong>：多视角融合提高检测准确性</li> <li><strong>完整性</strong>：能够处理移动、删除、新增三种变化类型</li> <li><strong>实用性</strong>：支持任意视角的遮挡处理</li> </ol> <h3 id="应用场景">应用场景</h3> <ul> <li>室内环境监控</li> <li>机器人导航</li> <li>增强现实</li> <li>场景理解</li> </ul> <h2 id="未来发展方向">未来发展方向</h2> <ol> <li><strong>实时性优化</strong>：进一步提高算法运行速度</li> <li><strong>鲁棒性增强</strong>：处理更复杂的光照和遮挡情况</li> <li><strong>精度提升</strong>：减少误检和漏检</li> <li><strong>扩展性</strong>：支持更多类型的环境和物体</li> </ol> <hr/> <p><em>3DGS-CD代表了场景变化检测领域的重要进展，通过巧妙结合3D重建和语义分割技术，实现了高效准确的变化检测。</em></p>]]></content><author><name></name></author><category term="research-analysis"/><category term="computer-vision"/><category term="3d-reconstruction"/><category term="change-detection"/><summary type="html"><![CDATA[深入分析3D Gaussian Splatting Change Detection算法的核心原理和实现流程]]></summary></entry><entry><title type="html">Summer Vacation Research Summary</title><link href="https://ziya-jiang.github.io/blog/2025/summer_vacation_summary/" rel="alternate" type="text/html" title="Summer Vacation Research Summary"/><published>2025-07-18T16:00:00+00:00</published><updated>2025-07-18T16:00:00+00:00</updated><id>https://ziya-jiang.github.io/blog/2025/summer_vacation_summary</id><content type="html" xml:base="https://ziya-jiang.github.io/blog/2025/summer_vacation_summary/"><![CDATA[<p>As of July 1st, my summer vacation officially began, and three weeks have already passed. Here’s a chronological summary of my research progress and achievements.</p> <h2 id="week-1-concept-map-integration-and-system-development">Week 1: Concept Map Integration and System Development</h2> <p>During the first week, I made significant progress in replacing CLIP with concept maps as explicit storage for spatial understanding. The Gaussian Memory Field now completely handles the imagination work without needing to dive into CLIP features.</p> <p>I also completed the main components of the KARA system, including:</p> <ul> <li><strong>Concept map-based human-computer dialogue</strong>: Implemented natural language interaction using spatial concept understanding</li> <li><strong>Top-down binary navigation graph</strong>: Developed efficient path planning using hierarchical spatial representations</li> </ul> <p>This week laid the foundation for a more robust and interpretable spatial reasoning system.</p> <h2 id="week-2-system-integration-and-real-world-demonstrations">Week 2: System Integration and Real-world Demonstrations</h2> <p>The second week focused on system integration and real-world testing. I conducted live demonstrations and recordings in three different environments:</p> <ul> <li><strong>Conference room</strong>: Testing system performance in controlled indoor environments</li> <li><strong>Senior care facility</strong>: Evaluating adaptability in complex living spaces</li> <li><strong>Unmanned supermarket</strong>: Assessing navigation capabilities in commercial settings</li> </ul> <h3 id="performance-bottlenecks-identified">Performance Bottlenecks Identified:</h3> <ul> <li><strong>Navigation limitations</strong>: The system’s path planning showed performance constraints</li> <li><strong>Point cloud mismatching</strong>: Objects appeared as duplicates (ghosting effect) due to registration issues</li> </ul> <p>Despite these challenges, the demonstrations successfully showcased the system’s potential and highlighted areas for improvement.</p> <h2 id="week-3-change-detection-research-and-website-development">Week 3: Change Detection Research and Website Development</h2> <p>The third week was dedicated to advancing change detection capabilities and personal development:</p> <h3 id="research-progress">Research Progress:</h3> <ul> <li><strong>Change detection strategy discussions</strong>: Had detailed discussions with Li Xia and Jin Jin on implementation strategies for change detection</li> <li><strong>3DGSSlam recordings</strong>: Completed real-world recordings in three scenarios, successfully reproducing the authoritative 3DGS-CD (3D Gaussian Splatting Change Detection) results</li> <li><strong>Algorithm robustness analysis</strong>: Found that the current algorithm has limited robustness, only detecting significant scene changes</li> </ul> <h3 id="personal-development">Personal Development:</h3> <ul> <li><strong>Personal website creation</strong>: Built this blog website that you’re currently reading - I’m quite pleased with the result!</li> </ul> <h2 id="future-plans-next-two-weeks">Future Plans (Next Two Weeks)</h2> <p>Looking ahead to the remaining two weeks of summer vacation, I plan to focus on:</p> <ul> <li><strong>Change detection integration</strong>: Integrating and modifying the change detection algorithms</li> <li><strong>System optimization</strong>: Addressing the performance bottlenecks identified during demonstrations</li> <li><strong>Algorithm robustness improvement</strong>: Enhancing the change detection algorithm’s sensitivity and reliability</li> </ul> <h2 id="key-achievements">Key Achievements</h2> <ol> <li><strong>Conceptual breakthrough</strong>: Successfully replaced CLIP with concept maps for spatial understanding</li> <li><strong>System development</strong>: Completed the main KARA system with dialogue and navigation capabilities</li> <li><strong>Real-world validation</strong>: Conducted comprehensive demonstrations in multiple environments</li> <li><strong>Research advancement</strong>: Made progress in change detection and 3D Gaussian Splatting</li> <li><strong>Personal growth</strong>: Developed technical and communication skills through presentations and discussions</li> </ol> <h2 id="technical-insights">Technical Insights</h2> <p>The transition from CLIP to concept maps represents a significant architectural improvement, providing:</p> <ul> <li><strong>Better interpretability</strong>: Spatial concepts are now explicitly represented</li> <li><strong>Improved efficiency</strong>: Reduced computational overhead compared to CLIP feature extraction</li> <li><strong>Enhanced flexibility</strong>: More adaptable to different spatial reasoning tasks</li> </ul> <h2 id="challenges-and-lessons-learned">Challenges and Lessons Learned</h2> <ul> <li><strong>Navigation optimization</strong>: Need to improve path planning algorithms for better real-time performance</li> <li><strong>Point cloud registration</strong>: Address ghosting issues through better registration techniques</li> <li><strong>Change detection robustness</strong>: Develop more sensitive algorithms for subtle scene changes</li> </ul> <hr/> <p><em>This summer has been incredibly productive, combining theoretical research with practical implementation. I’m excited to continue this work and see where the next two weeks take us.</em></p>]]></content><author><name></name></author><category term="research-updates"/><category term="research"/><category term="computer-vision"/><category term="robotics"/><summary type="html"><![CDATA[A comprehensive summary of my three-week summer research progress, including concept map integration, system demonstrations, and future plans]]></summary></entry><entry><title type="html">Github Management Guide</title><link href="https://ziya-jiang.github.io/blog/2025/github-management/" rel="alternate" type="text/html" title="Github Management Guide"/><published>2025-07-18T15:59:00+00:00</published><updated>2025-07-18T15:59:00+00:00</updated><id>https://ziya-jiang.github.io/blog/2025/github-management</id><content type="html" xml:base="https://ziya-jiang.github.io/blog/2025/github-management/"><![CDATA[<p>This blog post documents how to manage GitHub repositories for personal website deployment. My GitHub username is <code class="language-plaintext highlighter-rouge">Ziya-Jiang</code>, and this guide will cover the complete workflow from local development to GitHub Pages deployment.</p> <h2 id="part-1-committing-updated-repository-to-main-branch">Part 1: Committing Updated Repository to Main Branch</h2> <h3 id="1-initialize-local-repository">1. Initialize Local Repository</h3> <p>First, ensure your local project is initialized as a Git repository:</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Initialize Git repository if not already done</span>
 git init
 
 <span class="c"># Add remote repository (if not already added)</span>
@@ -59,7 +59,40 @@ git push origin main
 <span class="nb">echo</span> <span class="s2">"Deployment completed!"</span>
 </code></pre></div></div> <p>Usage:</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">chmod</span> +x deploy.sh
 ./deploy.sh
-</code></pre></div></div> <h3 id="9-best-practices">9. Best Practices</h3> <ol> <li><strong>Regular commits</strong>: Don’t accumulate too many changes before committing</li> <li><strong>Meaningful commit messages</strong>: Use clear commit messages to describe changes</li> <li><strong>Branch management</strong>: Consider using feature branches for important changes</li> <li><strong>Backup</strong>: Regularly backup important files</li> <li><strong>Testing</strong>: Test website functionality locally before pushing</li> </ol> <h3 id="10-next-steps">10. Next Steps</h3> <p>In the next part, we will cover:</p> <ul> <li>GitHub Pages configuration and deployment</li> <li>Custom domain setup</li> <li>Automated deployment workflows</li> <li>Performance optimization and monitoring</li> </ul> <hr/>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="charts"/><summary type="html"><![CDATA[A comprehensive guide to managing GitHub repositories for personal website deployment, including code commits, branch management, and deployment workflows]]></summary></entry><entry><title type="html">a post with plotly.js</title><link href="https://ziya-jiang.github.io/blog/2025/plotly/" rel="alternate" type="text/html" title="a post with plotly.js"/><published>2025-03-26T14:24:00+00:00</published><updated>2025-03-26T14:24:00+00:00</updated><id>https://ziya-jiang.github.io/blog/2025/plotly</id><content type="html" xml:base="https://ziya-jiang.github.io/blog/2025/plotly/"><![CDATA[<p>This is an example post with some <a href="https://plotly.com/javascript/">plotly</a> code.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">plotly
+</code></pre></div></div> <h3 id="9-best-practices">9. Best Practices</h3> <ol> <li><strong>Regular commits</strong>: Don’t accumulate too many changes before committing</li> <li><strong>Meaningful commit messages</strong>: Use clear commit messages to describe changes</li> <li><strong>Branch management</strong>: Consider using feature branches for important changes</li> <li><strong>Backup</strong>: Regularly backup important files</li> <li><strong>Testing</strong>: Test website functionality locally before pushing</li> </ol> <h3 id="10-next-steps">10. Next Steps</h3> <p>In the next part, we will cover:</p> <ul> <li>GitHub Pages configuration and deployment</li> <li>Custom domain setup</li> <li>Automated deployment workflows</li> <li>Performance optimization and monitoring</li> </ul> <hr/>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="charts"/><summary type="html"><![CDATA[A comprehensive guide to managing GitHub repositories for personal website deployment, including code commits, branch management, and deployment workflows]]></summary></entry><entry><title type="html"></title><link href="https://ziya-jiang.github.io/blog/2025/2025-07-18-ros-package/" rel="alternate" type="text/html" title=""/><published>2025-07-18T15:31:22+00:00</published><updated>2025-07-18T15:31:22+00:00</updated><id>https://ziya-jiang.github.io/blog/2025/2025-07-18-ros-package</id><content type="html" xml:base="https://ziya-jiang.github.io/blog/2025/2025-07-18-ros-package/"><![CDATA[<h1 id="understanding-ros-packages-a-comprehensive-guide">Understanding ROS Packages: A Comprehensive Guide</h1> <p>ROS (Robot Operating System) packages are the fundamental building blocks of ROS-based robotics software. This guide will explain what ROS packages are, their purpose, structure, and how to work with them effectively.</p> <h2 id="what-is-a-ros-package-and-why-do-we-need-it">What is a ROS Package and Why Do We Need It?</h2> <h3 id="1-minimal-distribution-unit">1. Minimal Distribution Unit</h3> <ul> <li>In ROS, all distributable, reusable, compilable, and runnable code is packaged into Packages</li> <li>GitHub repositories commonly contain one or multiple Packages</li> </ul> <h3 id="2-dependency-and-build-manager">2. Dependency and Build Manager</h3> <ul> <li>Each package declares its dependencies on other packages, system libraries, and toolchains</li> <li>Build systems (catkin for ROS 1 / ament for ROS 2) automatically resolve these dependencies and set compilation parameters</li> </ul> <h3 id="3-namespace-management">3. Namespace Management</h3> <ul> <li>Topics, services, actions, parameters, and executables are logically organized through package names to prevent conflicts</li> </ul> <h3 id="4-distribution-and-installation">4. Distribution and Installation</h3> <ul> <li>ROS binary repositories (apt, yum, pacman, etc.) and source installation scripts are packaged and distributed by Package</li> <li><code class="language-plaintext highlighter-rouge">rosdep</code> automatically installs system-level dependencies based on <code class="language-plaintext highlighter-rouge">package.xml</code></li> </ul> <h2 id="whats-inside-a-typical-package">What’s Inside a Typical Package?</h2> <p>The following example shows a ROS 1 (catkin) structure. ROS 2 (ament) structure is similar, with main differences in <code class="language-plaintext highlighter-rouge">package.xml</code> format being stricter and build instructions written differently in <code class="language-plaintext highlighter-rouge">CMakeLists.txt</code>.</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>my_robot_package/
+├── CMakeLists.txt          # Build script: compilation options, dependencies, target executables
+├── package.xml             # Metadata: package name, version, dependencies, license, maintainer
+├── include/                # Header files for other packages to #include
+│   └── my_robot_package/
+├── src/                    # C/C++ source code, compiled into executables or libraries
+│   └── main.cpp
+├── scripts/                # Python / Bash scripts, requires chmod +x
+│   └── talker.py
+├── launch/                 # *.launch or *.py (ROS2) files, one-click startup of multiple nodes
+│   └── demo.launch
+├── config/                 # YAML or .rviz / .yaml parameter configurations
+│   └── joystick.yaml
+├── msg/                    # Custom messages *.msg
+│   └── WheelVel.msg
+├── srv/                    # Custom services *.srv
+│   └── SetSpeed.srv
+├── action/                 # Custom actions *.action
+│   └── Navigate.action
+├── urdf/                   # Robot models *.urdf, *.xacro
+│   └── my_robot.urdf.xacro
+├── rviz/                   # RViz configurations, Marker resources
+├── meshes/                 # STL/DAE visual and collision models
+└── README.md               # Documentation
+</code></pre></div></div> <h3 id="directoryfile-responsibilities">Directory/File Responsibilities</h3> <h4 id="1-packagexml">1. package.xml</h4> <ul> <li><strong>Specify dependencies</strong>: <code class="language-plaintext highlighter-rouge">build_depend</code>, <code class="language-plaintext highlighter-rouge">exec_depend</code>, <code class="language-plaintext highlighter-rouge">test_depend</code></li> <li><strong>Metadata</strong>: version, author, license, description</li> <li><strong>ROS 2</strong>: also carries export interfaces (e.g., <code class="language-plaintext highlighter-rouge">ament_cmake</code>, <code class="language-plaintext highlighter-rouge">pluginlib_export_plugin_description_file</code>)</li> </ul> <h4 id="2-cmakeliststxt">2. CMakeLists.txt</h4> <ul> <li><strong>Call</strong>: <code class="language-plaintext highlighter-rouge">find_package(catkin REQUIRED COMPONENTS roscpp std_msgs …)</code></li> <li><strong>Specify compilation targets</strong>: <code class="language-plaintext highlighter-rouge">add_executable()</code> / <code class="language-plaintext highlighter-rouge">ament_target_dependencies()</code></li> <li><strong>Installation paths</strong>: <code class="language-plaintext highlighter-rouge">install()</code> for <code class="language-plaintext highlighter-rouge">rosrun/ros2 run</code> and system package management</li> </ul> <h4 id="3-src-and-include">3. src/ and include/</h4> <ul> <li><strong>C++/C nodes and library implementations</strong>; headers in include for easy reference by other packages</li> </ul> <h4 id="4-scripts">4. scripts/</h4> <ul> <li><strong>Python nodes and helper scripts</strong>; ROS 1 uses <code class="language-plaintext highlighter-rouge">#!/usr/bin/env python</code>; ROS 2 emphasizes entry points</li> </ul> <h4 id="5-launch">5. launch/</h4> <ul> <li><strong>Describe how the entire system runs</strong>: nodes, parameters, namespaces, remapping, machine distribution</li> </ul> <h4 id="6-msgsrvaction">6. msg/srv/action</h4> <ul> <li><strong>Custom communication interfaces</strong>; automatically generate source code in corresponding languages during <code class="language-plaintext highlighter-rouge">catkin_make</code> or <code class="language-plaintext highlighter-rouge">colcon build</code></li> </ul> <h4 id="7-config">7. config/</h4> <ul> <li><strong>Static parameter files</strong>; loaded using <code class="language-plaintext highlighter-rouge">&lt;rosparam file=</code> or ROS 2 <code class="language-plaintext highlighter-rouge">param file=</code></li> </ul> <h4 id="8-urdf-meshes-rviz">8. urdf/, meshes/, rviz/</h4> <ul> <li><strong>Robot models and visualization resources</strong></li> </ul> <h2 id="ros-1-vs-ros-2-package-differences">ROS 1 vs ROS 2 Package Differences</h2> <h3 id="1-build-system">1. Build System</h3> <ul> <li><strong>ROS 1</strong>: catkin (CMake-based)</li> <li><strong>ROS 2</strong>: ament (modified CMake + Python); but directory structure differences are minimal</li> </ul> <h3 id="2-launch-files">2. Launch Files</h3> <ul> <li><strong>ROS 1</strong>: “*.launch” XML</li> <li><strong>ROS 2</strong>: adds Python launch with enhanced functionality</li> </ul> <h3 id="3-security-and-cross-platform">3. Security and Cross-Platform</h3> <ul> <li><strong>ROS 2 packages</strong> automatically adapt to DDS middleware, security encryption, real-time parameter declarations, and other new features</li> </ul> <h2 id="common-development-workflow">Common Development Workflow</h2> <h3 id="1-create-package">1. Create Package</h3> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># ROS1</span>
+catkin_create_pkg my_package roscpp rospy std_msgs
+
+<span class="c"># ROS2</span>
+ros2 pkg create <span class="nt">--build-type</span> ament_cmake my_package <span class="nt">--dependencies</span> rclcpp std_msgs
+</code></pre></div></div> <h3 id="2-write-code--compile">2. Write Code → Compile</h3> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>catkin_make         <span class="c"># or colcon build</span>
+<span class="nb">source </span>devel/setup.bash
+</code></pre></div></div> <h3 id="3-run">3. Run</h3> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rosrun my_package talker
+roslaunch my_package demo.launch
+</code></pre></div></div> <h2 id="best-practices">Best Practices</h2> <h3 id="package-naming">Package Naming</h3> <ul> <li>Use lowercase with underscores: <code class="language-plaintext highlighter-rouge">my_robot_package</code></li> <li>Be descriptive but concise</li> <li>Avoid special characters</li> </ul> <h3 id="dependency-management">Dependency Management</h3> <ul> <li>Only declare necessary dependencies</li> <li>Use appropriate dependency types (build, exec, test)</li> <li>Keep dependencies up to date</li> </ul> <h3 id="documentation">Documentation</h3> <ul> <li>Always include a README.md</li> <li>Document installation and usage</li> <li>Provide examples and tutorials</li> </ul> <h3 id="version-control">Version Control</h3> <ul> <li>Use semantic versioning</li> <li>Tag releases appropriately</li> <li>Maintain a changelog</li> </ul> <h2 id="summary">Summary</h2> <p>ROS Packages provide a “minimal reusable unit” packaging method, making robot software modular like LEGO blocks. A package typically contains: metadata (package.xml), build scripts (CMakeLists.txt), source code, scripts, launch files, parameters, models, and custom messages. Understanding package structure and dependency declaration is the foundation for ROS development and distribution.</p> <hr/> <p><em>ROS packages are the cornerstone of modular robotics development, enabling code reuse, easy distribution, and systematic dependency management in the robotics ecosystem.</em></p>]]></content><author><name></name></author></entry><entry><title type="html">a post with plotly.js</title><link href="https://ziya-jiang.github.io/blog/2025/plotly/" rel="alternate" type="text/html" title="a post with plotly.js"/><published>2025-03-26T14:24:00+00:00</published><updated>2025-03-26T14:24:00+00:00</updated><id>https://ziya-jiang.github.io/blog/2025/plotly</id><content type="html" xml:base="https://ziya-jiang.github.io/blog/2025/plotly/"><![CDATA[<p>This is an example post with some <a href="https://plotly.com/javascript/">plotly</a> code.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">plotly
 </span><span class="sb">{
   "data": [
     {
@@ -165,16 +198,16 @@ Content 2
 <span class="cp">{%</span><span class="w"> </span><span class="nt">endtab</span><span class="w"> </span><span class="cp">%}</span>
 
 <span class="cp">{%</span><span class="w"> </span><span class="nt">endtabs</span><span class="w"> </span><span class="cp">%}</span>
-</code></pre></div></div> <p>With this you can generate visualizations like:</p> <ul id="log" class="tab" data-tab="700b8ae4-3005-4f4a-b6ab-4c37fb0a447a" data-name="log"> <li class="active" id="log-php"> <a href="#">php </a> </li> <li id="log-js"> <a href="#">js </a> </li> <li id="log-ruby"> <a href="#">ruby </a> </li> </ul> <ul class="tab-content" id="700b8ae4-3005-4f4a-b6ab-4c37fb0a447a" data-name="log"> <li class="active"> <div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">var_dump</span><span class="p">(</span><span class="s1">'hello'</span><span class="p">);</span>
+</code></pre></div></div> <p>With this you can generate visualizations like:</p> <ul id="log" class="tab" data-tab="6bd3e763-6b95-45d4-87d6-864b06eb5cc5" data-name="log"> <li class="active" id="log-php"> <a href="#">php </a> </li> <li id="log-js"> <a href="#">js </a> </li> <li id="log-ruby"> <a href="#">ruby </a> </li> </ul> <ul class="tab-content" id="6bd3e763-6b95-45d4-87d6-864b06eb5cc5" data-name="log"> <li class="active"> <div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">var_dump</span><span class="p">(</span><span class="s1">'hello'</span><span class="p">);</span>
 </code></pre></div></div> </li> <li> <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">hello</span><span class="dl">"</span><span class="p">);</span>
 </code></pre></div></div> </li> <li> <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">pputs</span> <span class="dl">'</span><span class="s1">hello</span><span class="dl">'</span>
-</code></pre></div></div> </li> </ul> <h2 id="another-example">Another example</h2> <ul id="data-struct" class="tab" data-tab="e51d98a9-81e1-4bfd-a274-577042961772" data-name="data-struct"> <li class="active" id="data-struct-yaml"> <a href="#">yaml </a> </li> <li id="data-struct-json"> <a href="#">json </a> </li> </ul> <ul class="tab-content" id="e51d98a9-81e1-4bfd-a274-577042961772" data-name="data-struct"> <li class="active"> <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">hello</span><span class="pi">:</span>
+</code></pre></div></div> </li> </ul> <h2 id="another-example">Another example</h2> <ul id="data-struct" class="tab" data-tab="9dfa74a6-14aa-4f91-96d7-eea1f3a0ba8e" data-name="data-struct"> <li class="active" id="data-struct-yaml"> <a href="#">yaml </a> </li> <li id="data-struct-json"> <a href="#">json </a> </li> </ul> <ul class="tab-content" id="9dfa74a6-14aa-4f91-96d7-eea1f3a0ba8e" data-name="data-struct"> <li class="active"> <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">hello</span><span class="pi">:</span>
   <span class="pi">-</span> <span class="s2">"</span><span class="s">whatsup"</span>
   <span class="pi">-</span> <span class="s2">"</span><span class="s">hi"</span>
 </code></pre></div></div> </li> <li> <div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
   </span><span class="nl">"hello"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"whatsup"</span><span class="p">,</span><span class="w"> </span><span class="s2">"hi"</span><span class="p">]</span><span class="w">
 </span><span class="p">}</span><span class="w">
-</span></code></pre></div></div> </li> </ul> <h2 id="tabs-for-something-else">Tabs for something else</h2> <ul id="something-else" class="tab" data-tab="46ed6f05-799d-48f3-8fa0-c174c8dd9521" data-name="something-else"> <li class="active" id="something-else-text"> <a href="#">text </a> </li> <li id="something-else-quote"> <a href="#">quote </a> </li> <li id="something-else-list"> <a href="#">list </a> </li> </ul> <ul class="tab-content" id="46ed6f05-799d-48f3-8fa0-c174c8dd9521" data-name="something-else"> <li class="active"> <p>Regular text</p> </li> <li> <blockquote> <p>A quote</p> </blockquote> </li> <li> <p>Hipster list</p> <ul> <li>brunch</li> <li>fixie</li> <li>raybans</li> <li>messenger bag</li> </ul> </li> </ul>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="code"/><summary type="html"><![CDATA[this is what included tabs in a post could look like]]></summary></entry><entry><title type="html">a post with typograms</title><link href="https://ziya-jiang.github.io/blog/2024/typograms/" rel="alternate" type="text/html" title="a post with typograms"/><published>2024-04-29T23:36:10+00:00</published><updated>2024-04-29T23:36:10+00:00</updated><id>https://ziya-jiang.github.io/blog/2024/typograms</id><content type="html" xml:base="https://ziya-jiang.github.io/blog/2024/typograms/"><![CDATA[<p>This is an example post with some <a href="https://github.com/google/typograms/">typograms</a> code.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">typograms
+</span></code></pre></div></div> </li> </ul> <h2 id="tabs-for-something-else">Tabs for something else</h2> <ul id="something-else" class="tab" data-tab="2eff9daa-cbad-4af6-a1b6-8bb7eaf2647d" data-name="something-else"> <li class="active" id="something-else-text"> <a href="#">text </a> </li> <li id="something-else-quote"> <a href="#">quote </a> </li> <li id="something-else-list"> <a href="#">list </a> </li> </ul> <ul class="tab-content" id="2eff9daa-cbad-4af6-a1b6-8bb7eaf2647d" data-name="something-else"> <li class="active"> <p>Regular text</p> </li> <li> <blockquote> <p>A quote</p> </blockquote> </li> <li> <p>Hipster list</p> <ul> <li>brunch</li> <li>fixie</li> <li>raybans</li> <li>messenger bag</li> </ul> </li> </ul>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="code"/><summary type="html"><![CDATA[this is what included tabs in a post could look like]]></summary></entry><entry><title type="html">a post with typograms</title><link href="https://ziya-jiang.github.io/blog/2024/typograms/" rel="alternate" type="text/html" title="a post with typograms"/><published>2024-04-29T23:36:10+00:00</published><updated>2024-04-29T23:36:10+00:00</updated><id>https://ziya-jiang.github.io/blog/2024/typograms</id><content type="html" xml:base="https://ziya-jiang.github.io/blog/2024/typograms/"><![CDATA[<p>This is an example post with some <a href="https://github.com/google/typograms/">typograms</a> code.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">typograms
 </span><span class="sb">+----+
 |    |---&gt; My first diagram!
 +----+</span>
@@ -228,500 +261,4 @@ Content 2
 ||                      ||
 |+----------------------+|
 .------------------------.
-</code></pre> <p>For more examples, check out the <a href="https://google.github.io/typograms/#examples">typograms documentation</a>.</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="diagrams"/><summary type="html"><![CDATA[this is what included typograms code could look like]]></summary></entry><entry><title type="html">a post that can be cited</title><link href="https://ziya-jiang.github.io/blog/2024/post-citation/" rel="alternate" type="text/html" title="a post that can be cited"/><published>2024-04-28T15:06:00+00:00</published><updated>2024-04-28T15:06:00+00:00</updated><id>https://ziya-jiang.github.io/blog/2024/post-citation</id><content type="html" xml:base="https://ziya-jiang.github.io/blog/2024/post-citation/"><![CDATA[<p>This is an example post that can be cited. The content of the post ends here, while the citation information is automatically provided below. The only thing needed is for you to set the <code class="language-plaintext highlighter-rouge">citation</code> key in the front matter to <code class="language-plaintext highlighter-rouge">true</code>.</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="citation"/><summary type="html"><![CDATA[this is what a post that can be cited looks like]]></summary></entry><entry><title type="html">a post with pseudo code</title><link href="https://ziya-jiang.github.io/blog/2024/pseudocode/" rel="alternate" type="text/html" title="a post with pseudo code"/><published>2024-04-15T00:01:00+00:00</published><updated>2024-04-15T00:01:00+00:00</updated><id>https://ziya-jiang.github.io/blog/2024/pseudocode</id><content type="html" xml:base="https://ziya-jiang.github.io/blog/2024/pseudocode/"><![CDATA[<p>This is an example post with some pseudo code rendered by <a href="https://github.com/SaswatPadhi/pseudocode.js">pseudocode</a>. The example presented here is the same as the one in the <a href="https://saswat.padhi.me/pseudocode.js/">pseudocode.js</a> documentation, with only one simple but important change: everytime you would use <code class="language-plaintext highlighter-rouge">$</code>, you should use <code class="language-plaintext highlighter-rouge">$$</code> instead. Also, note that the <code class="language-plaintext highlighter-rouge">pseudocode</code> key in the front matter is set to <code class="language-plaintext highlighter-rouge">true</code> to enable the rendering of pseudo code. As an example, using this code:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">pseudocode
-</span><span class="sb">% This quicksort algorithm is extracted from Chapter 7, Introduction to Algorithms (3rd edition)
-\begin{algorithm}
-\caption{Quicksort}
-\begin{algorithmic}
-\PROCEDURE{Quicksort}{$$A, p, r$$}
-    \IF{$$p &lt; r$$}
-        \STATE $$q = $$ \CALL{Partition}{$$A, p, r$$}
-        \STATE \CALL{Quicksort}{$$A, p, q - 1$$}
-        \STATE \CALL{Quicksort}{$$A, q + 1, r$$}
-    \ENDIF
-\ENDPROCEDURE
-\PROCEDURE{Partition}{$$A, p, r$$}
-    \STATE $$x = A[r]$$
-    \STATE $$i = p - 1$$
-    \FOR{$$j = p$$ \TO $$r - 1$$}
-        \IF{$$A[j] &lt; x$$}
-            \STATE $$i = i + 1$$
-            \STATE exchange
-            $$A[i]$$ with $$A[j]$$
-        \ENDIF
-        \STATE exchange $$A[i]$$ with $$A[r]$$
-    \ENDFOR
-\ENDPROCEDURE
-\end{algorithmic}
-\end{algorithm}</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>Generates:</p> <pre><code class="language-pseudocode">% This quicksort algorithm is extracted from Chapter 7, Introduction to Algorithms (3rd edition)
-\begin{algorithm}
-\caption{Quicksort}
-\begin{algorithmic}
-\PROCEDURE{Quicksort}{$$A, p, r$$}
-    \IF{$$p &lt; r$$}
-        \STATE $$q = $$ \CALL{Partition}{$$A, p, r$$}
-        \STATE \CALL{Quicksort}{$$A, p, q - 1$$}
-        \STATE \CALL{Quicksort}{$$A, q + 1, r$$}
-    \ENDIF
-\ENDPROCEDURE
-\PROCEDURE{Partition}{$$A, p, r$$}
-    \STATE $$x = A[r]$$
-    \STATE $$i = p - 1$$
-    \FOR{$$j = p$$ \TO $$r - 1$$}
-        \IF{$$A[j] &lt; x$$}
-            \STATE $$i = i + 1$$
-            \STATE exchange
-            $$A[i]$$ with $$A[j]$$
-        \ENDIF
-        \STATE exchange $$A[i]$$ with $$A[r]$$
-    \ENDFOR
-\ENDPROCEDURE
-\end{algorithmic}
-\end{algorithm}
-</code></pre>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="code"/><summary type="html"><![CDATA[this is what included pseudo code could look like]]></summary></entry><entry><title type="html">a post with code diff</title><link href="https://ziya-jiang.github.io/blog/2024/code-diff/" rel="alternate" type="text/html" title="a post with code diff"/><published>2024-01-27T19:22:00+00:00</published><updated>2024-01-27T19:22:00+00:00</updated><id>https://ziya-jiang.github.io/blog/2024/code-diff</id><content type="html" xml:base="https://ziya-jiang.github.io/blog/2024/code-diff/"><![CDATA[<p>You can display diff code by using the regular markdown syntax:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">diff
-</span><span class="gh">diff --git a/sample.js b/sample.js
-index 0000001..0ddf2ba
-</span><span class="gd">--- a/sample.js
-</span><span class="gi">+++ b/sample.js
-</span><span class="p">@@ -1 +1 @@</span>
-<span class="gd">-console.log("Hello World!")
-</span><span class="gi">+console.log("Hello from Diff2Html!")</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>Which generates:</p> <div class="language-diff highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gh">diff --git a/sample.js b/sample.js
-index 0000001..0ddf2ba
-</span><span class="gd">--- a/sample.js
-</span><span class="gi">+++ b/sample.js
-</span><span class="p">@@ -1 +1 @@</span>
-<span class="gd">-console.log("Hello World!")
-</span><span class="gi">+console.log("Hello from Diff2Html!")
-</span></code></pre></div></div> <p>But this is difficult to read, specially if you have a large diff. You can use <a href="https://diff2html.xyz/">diff2html</a> to display a more readable version of the diff. For this, just use <code class="language-plaintext highlighter-rouge">diff2html</code> instead of <code class="language-plaintext highlighter-rouge">diff</code> for the code block language:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">diff2html
-</span><span class="sb">diff --git a/sample.js b/sample.js
-index 0000001..0ddf2ba
---- a/sample.js
-+++ b/sample.js
-@@ -1 +1 @@
--console.log("Hello World!")
-+console.log("Hello from Diff2Html!")</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>If we use a longer example, for example <a href="https://github.com/rtfpessoa/diff2html/commit/c2c253d3e3f8b8b267f551e659f72b44ca2ac927">this commit from diff2html</a>, it will generate the following output:</p> <pre><code class="language-diff2html">From 2aaae31cc2a37bfff83430c2c914b140bee59b6a Mon Sep 17 00:00:00 2001
-From: Rodrigo Fernandes &lt;rtfrodrigo@gmail.com&gt;
-Date: Sun, 9 Oct 2016 16:41:54 +0100
-Subject: [PATCH 1/2] Initial template override support
-
----
- scripts/hulk.js                    |  4 ++--
- src/diff2html.js                   |  3 +--
- src/file-list-printer.js           | 11 ++++++++---
- src/hoganjs-utils.js               | 29 +++++++++++++++++------------
- src/html-printer.js                |  6 ++++++
- src/line-by-line-printer.js        |  6 +++++-
- src/side-by-side-printer.js        |  6 +++++-
- test/file-list-printer-tests.js    |  2 +-
- test/hogan-cache-tests.js          | 18 +++++++++++++++---
- test/line-by-line-tests.js         |  3 +--
- test/side-by-side-printer-tests.js |  3 +--
- 11 files changed, 62 insertions(+), 29 deletions(-)
-
-diff --git a/scripts/hulk.js b/scripts/hulk.js
-index 5a793c18..a4b1a4d5 100755
---- a/scripts/hulk.js
-+++ b/scripts/hulk.js
-@@ -173,11 +173,11 @@ function namespace(name) {
- // write a template foreach file that matches template extension
- templates = extractFiles(options.argv.remain)
-   .map(function(file) {
--    var openedFile = fs.readFileSync(file, 'utf-8');
-+    var openedFile = fs.readFileSync(file, 'utf-8').trim();
-     var name;
-     if (!openedFile) return;
-     name = namespace(path.basename(file).replace(/\..*$/, ''));
--    openedFile = removeByteOrderMark(openedFile.trim());
-+    openedFile = removeByteOrderMark(openedFile);
-     openedFile = wrap(file, name, openedFile);
-     if (!options.outputdir) return openedFile;
-     fs.writeFileSync(path.join(options.outputdir, name + '.js')
-diff --git a/src/diff2html.js b/src/diff2html.js
-index 21b0119e..64e138f5 100644
---- a/src/diff2html.js
-+++ b/src/diff2html.js
-@@ -7,7 +7,6 @@
-
- (function() {
-   var diffParser = require('./diff-parser.js').DiffParser;
--  var fileLister = require('./file-list-printer.js').FileListPrinter;
-   var htmlPrinter = require('./html-printer.js').HtmlPrinter;
-
-   function Diff2Html() {
-@@ -43,7 +42,7 @@
-
-     var fileList = '';
-     if (configOrEmpty.showFiles === true) {
--      fileList = fileLister.generateFileList(diffJson, configOrEmpty);
-+      fileList = htmlPrinter.generateFileListSummary(diffJson, configOrEmpty);
-     }
-
-     var diffOutput = '';
-diff --git a/src/file-list-printer.js b/src/file-list-printer.js
-index e408d9b2..1e0a2c61 100644
---- a/src/file-list-printer.js
-+++ b/src/file-list-printer.js
-@@ -8,11 +8,16 @@
- (function() {
-   var printerUtils = require('./printer-utils.js').PrinterUtils;
-
--  var hoganUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+  var hoganUtils;
-+
-   var baseTemplatesPath = 'file-summary';
-   var iconsBaseTemplatesPath = 'icon';
-
--  function FileListPrinter() {
-+  function FileListPrinter(config) {
-+    this.config = config;
-+
-+    var HoganJsUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+    hoganUtils = new HoganJsUtils(config);
-   }
-
-   FileListPrinter.prototype.generateFileList = function(diffFiles) {
-@@ -38,5 +43,5 @@
-     });
-   };
-
--  module.exports.FileListPrinter = new FileListPrinter();
-+  module.exports.FileListPrinter = FileListPrinter;
- })();
-diff --git a/src/hoganjs-utils.js b/src/hoganjs-utils.js
-index 9949e5fa..0dda08d7 100644
---- a/src/hoganjs-utils.js
-+++ b/src/hoganjs-utils.js
-@@ -8,18 +8,19 @@
- (function() {
-   var fs = require('fs');
-   var path = require('path');
--
-   var hogan = require('hogan.js');
-
-   var hoganTemplates = require('./templates/diff2html-templates.js');
-
--  var templatesPath = path.resolve(__dirname, 'templates');
-+  var extraTemplates;
-
--  function HoganJsUtils() {
-+  function HoganJsUtils(configuration) {
-+    this.config = configuration || {};
-+    extraTemplates = this.config.templates || {};
-   }
-
--  HoganJsUtils.prototype.render = function(namespace, view, params, configuration) {
--    var template = this.template(namespace, view, configuration);
-+  HoganJsUtils.prototype.render = function(namespace, view, params) {
-+    var template = this.template(namespace, view);
-     if (template) {
-       return template.render(params);
-     }
-@@ -27,17 +28,16 @@
-     return null;
-   };
-
--  HoganJsUtils.prototype.template = function(namespace, view, configuration) {
--    var config = configuration || {};
-+  HoganJsUtils.prototype.template = function(namespace, view) {
-     var templateKey = this._templateKey(namespace, view);
-
--    return this._getTemplate(templateKey, config);
-+    return this._getTemplate(templateKey);
-   };
-
--  HoganJsUtils.prototype._getTemplate = function(templateKey, config) {
-+  HoganJsUtils.prototype._getTemplate = function(templateKey) {
-     var template;
-
--    if (!config.noCache) {
-+    if (!this.config.noCache) {
-       template = this._readFromCache(templateKey);
-     }
-
-@@ -53,6 +53,7 @@
-
-     try {
-       if (fs.readFileSync) {
-+        var templatesPath = path.resolve(__dirname, 'templates');
-         var templatePath = path.join(templatesPath, templateKey);
-         var templateContent = fs.readFileSync(templatePath + '.mustache', 'utf8');
-         template = hogan.compile(templateContent);
-@@ -66,12 +67,16 @@
-   };
-
-   HoganJsUtils.prototype._readFromCache = function(templateKey) {
--    return hoganTemplates[templateKey];
-+    return extraTemplates[templateKey] || hoganTemplates[templateKey];
-   };
-
-   HoganJsUtils.prototype._templateKey = function(namespace, view) {
-     return namespace + '-' + view;
-   };
-
--  module.exports.HoganJsUtils = new HoganJsUtils();
-+  HoganJsUtils.prototype.compile = function(templateStr) {
-+    return hogan.compile(templateStr);
-+  };
-+
-+  module.exports.HoganJsUtils = HoganJsUtils;
- })();
-diff --git a/src/html-printer.js b/src/html-printer.js
-index 585d5b66..13f83047 100644
---- a/src/html-printer.js
-+++ b/src/html-printer.js
-@@ -8,6 +8,7 @@
- (function() {
-   var LineByLinePrinter = require('./line-by-line-printer.js').LineByLinePrinter;
-   var SideBySidePrinter = require('./side-by-side-printer.js').SideBySidePrinter;
-+  var FileListPrinter = require('./file-list-printer.js').FileListPrinter;
-
-   function HtmlPrinter() {
-   }
-@@ -22,5 +23,10 @@
-     return sideBySidePrinter.generateSideBySideJsonHtml(diffFiles);
-   };
-
-+  HtmlPrinter.prototype.generateFileListSummary = function(diffJson, config) {
-+    var fileListPrinter = new FileListPrinter(config);
-+    return fileListPrinter.generateFileList(diffJson);
-+  };
-+
-   module.exports.HtmlPrinter = new HtmlPrinter();
- })();
-diff --git a/src/line-by-line-printer.js b/src/line-by-line-printer.js
-index b07eb53c..d230bedd 100644
---- a/src/line-by-line-printer.js
-+++ b/src/line-by-line-printer.js
-@@ -11,7 +11,8 @@
-   var utils = require('./utils.js').Utils;
-   var Rematch = require('./rematch.js').Rematch;
-
--  var hoganUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+  var hoganUtils;
-+
-   var genericTemplatesPath = 'generic';
-   var baseTemplatesPath = 'line-by-line';
-   var iconsBaseTemplatesPath = 'icon';
-@@ -19,6 +20,9 @@
-
-   function LineByLinePrinter(config) {
-     this.config = config;
-+
-+    var HoganJsUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+    hoganUtils = new HoganJsUtils(config);
-   }
-
-   LineByLinePrinter.prototype.makeFileDiffHtml = function(file, diffs) {
-diff --git a/src/side-by-side-printer.js b/src/side-by-side-printer.js
-index bbf1dc8d..5e3033b3 100644
---- a/src/side-by-side-printer.js
-+++ b/src/side-by-side-printer.js
-@@ -11,7 +11,8 @@
-   var utils = require('./utils.js').Utils;
-   var Rematch = require('./rematch.js').Rematch;
-
--  var hoganUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+  var hoganUtils;
-+
-   var genericTemplatesPath = 'generic';
-   var baseTemplatesPath = 'side-by-side';
-   var iconsBaseTemplatesPath = 'icon';
-@@ -26,6 +27,9 @@
-
-   function SideBySidePrinter(config) {
-     this.config = config;
-+
-+    var HoganJsUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+    hoganUtils = new HoganJsUtils(config);
-   }
-
-   SideBySidePrinter.prototype.makeDiffHtml = function(file, diffs) {
-diff --git a/test/file-list-printer-tests.js b/test/file-list-printer-tests.js
-index a502a46f..60ea3208 100644
---- a/test/file-list-printer-tests.js
-+++ b/test/file-list-printer-tests.js
-@@ -1,6 +1,6 @@
- var assert = require('assert');
-
--var fileListPrinter = require('../src/file-list-printer.js').FileListPrinter;
-+var fileListPrinter = new (require('../src/file-list-printer.js').FileListPrinter)();
-
- describe('FileListPrinter', function() {
-   describe('generateFileList', function() {
-diff --git a/test/hogan-cache-tests.js b/test/hogan-cache-tests.js
-index 190bf6f8..3bb754ac 100644
---- a/test/hogan-cache-tests.js
-+++ b/test/hogan-cache-tests.js
-@@ -1,6 +1,6 @@
- var assert = require('assert');
-
--var HoganJsUtils = require('../src/hoganjs-utils.js').HoganJsUtils;
-+var HoganJsUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)();
- var diffParser = require('../src/diff-parser.js').DiffParser;
-
- describe('HoganJsUtils', function() {
-@@ -21,16 +21,28 @@ describe('HoganJsUtils', function() {
-       });
-       assert.equal(emptyDiffHtml, result);
-     });
-+
-     it('should render view without cache', function() {
-       var result = HoganJsUtils.render('generic', 'empty-diff', {
-         contentClass: 'd2h-code-line',
-         diffParser: diffParser
-       }, {noCache: true});
--      assert.equal(emptyDiffHtml + '\n', result);
-+      assert.equal(emptyDiffHtml, result);
-     });
-+
-     it('should return null if template is missing', function() {
--      var result = HoganJsUtils.render('generic', 'missing-template', {}, {noCache: true});
-+      var hoganUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)({noCache: true});
-+      var result = hoganUtils.render('generic', 'missing-template', {});
-       assert.equal(null, result);
-     });
-+
-+    it('should allow templates to be overridden', function() {
-+      var emptyDiffTemplate = HoganJsUtils.compile('&lt;p&gt;&lt;/p&gt;');
-+
-+      var config = {templates: {'generic-empty-diff': emptyDiffTemplate}};
-+      var hoganUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)(config);
-+      var result = hoganUtils.render('generic', 'empty-diff', {myName: 'Rodrigo Fernandes'});
-+      assert.equal('&lt;p&gt;Rodrigo Fernandes&lt;/p&gt;', result);
-+    });
-   });
- });
-diff --git a/test/line-by-line-tests.js b/test/line-by-line-tests.js
-index 1cd92073..8869b3df 100644
---- a/test/line-by-line-tests.js
-+++ b/test/line-by-line-tests.js
-@@ -14,7 +14,7 @@ describe('LineByLinePrinter', function() {
-         '            File without changes\n' +
-         '        &lt;/div&gt;\n' +
-         '    &lt;/td&gt;\n' +
--        '&lt;/tr&gt;\n';
-+        '&lt;/tr&gt;';
-
-       assert.equal(expected, fileHtml);
-     });
-@@ -422,7 +422,6 @@ describe('LineByLinePrinter', function() {
-         '        &lt;/div&gt;\n' +
-         '    &lt;/td&gt;\n' +
-         '&lt;/tr&gt;\n' +
--        '\n' +
-         '                &lt;/tbody&gt;\n' +
-         '            &lt;/table&gt;\n' +
-         '        &lt;/div&gt;\n' +
-diff --git a/test/side-by-side-printer-tests.js b/test/side-by-side-printer-tests.js
-index 76625f8e..771daaa5 100644
---- a/test/side-by-side-printer-tests.js
-+++ b/test/side-by-side-printer-tests.js
-@@ -14,7 +14,7 @@ describe('SideBySidePrinter', function() {
-         '            File without changes\n' +
-         '        &lt;/div&gt;\n' +
-         '    &lt;/td&gt;\n' +
--        '&lt;/tr&gt;\n';
-+        '&lt;/tr&gt;';
-
-       assert.equal(expectedRight, fileHtml.right);
-       assert.equal(expectedLeft, fileHtml.left);
-@@ -324,7 +324,6 @@ describe('SideBySidePrinter', function() {
-         '        &lt;/div&gt;\n' +
-         '    &lt;/td&gt;\n' +
-         '&lt;/tr&gt;\n' +
--        '\n' +
-         '                    &lt;/tbody&gt;\n' +
-         '                &lt;/table&gt;\n' +
-         '            &lt;/div&gt;\n' +
-
-From f3cadb96677d0eb82fc2752dc3ffbf35ca9b5bdb Mon Sep 17 00:00:00 2001
-From: Rodrigo Fernandes &lt;rtfrodrigo@gmail.com&gt;
-Date: Sat, 15 Oct 2016 13:21:22 +0100
-Subject: [PATCH 2/2] Allow uncompiled templates
-
----
- README.md                 |  3 +++
- src/hoganjs-utils.js      |  7 +++++++
- test/hogan-cache-tests.js | 24 +++++++++++++++++++++++-
- 3 files changed, 33 insertions(+), 1 deletion(-)
-
-diff --git a/README.md b/README.md
-index 132c8a28..46909f25 100644
---- a/README.md
-+++ b/README.md
-@@ -98,6 +98,9 @@ The HTML output accepts a Javascript object with configuration. Possible options
-   - `synchronisedScroll`: scroll both panes in side-by-side mode: `true` or `false`, default is `false`
-   - `matchWordsThreshold`: similarity threshold for word matching, default is 0.25
-   - `matchingMaxComparisons`: perform at most this much comparisons for line matching a block of changes, default is `2500`
-+  - `templates`: object with previously compiled templates to replace parts of the html
-+  - `rawTemplates`: object with raw not compiled templates to replace parts of the html
-+  &gt; For more information regarding the possible templates look into [src/templates](https://github.com/rtfpessoa/diff2html/tree/master/src/templates)
-
- ## Diff2HtmlUI Helper
-
-diff --git a/src/hoganjs-utils.js b/src/hoganjs-utils.js
-index 0dda08d7..b2e9c275 100644
---- a/src/hoganjs-utils.js
-+++ b/src/hoganjs-utils.js
-@@ -17,6 +17,13 @@
-   function HoganJsUtils(configuration) {
-     this.config = configuration || {};
-     extraTemplates = this.config.templates || {};
-+
-+    var rawTemplates = this.config.rawTemplates || {};
-+    for (var templateName in rawTemplates) {
-+      if (rawTemplates.hasOwnProperty(templateName)) {
-+        if (!extraTemplates[templateName]) extraTemplates[templateName] = this.compile(rawTemplates[templateName]);
-+      }
-+    }
-   }
-
-   HoganJsUtils.prototype.render = function(namespace, view, params) {
-diff --git a/test/hogan-cache-tests.js b/test/hogan-cache-tests.js
-index 3bb754ac..a34839c0 100644
---- a/test/hogan-cache-tests.js
-+++ b/test/hogan-cache-tests.js
-@@ -36,7 +36,7 @@ describe('HoganJsUtils', function() {
-       assert.equal(null, result);
-     });
-
--    it('should allow templates to be overridden', function() {
-+    it('should allow templates to be overridden with compiled templates', function() {
-       var emptyDiffTemplate = HoganJsUtils.compile('&lt;p&gt;&lt;/p&gt;');
-
-       var config = {templates: {'generic-empty-diff': emptyDiffTemplate}};
-@@ -44,5 +44,27 @@ describe('HoganJsUtils', function() {
-       var result = hoganUtils.render('generic', 'empty-diff', {myName: 'Rodrigo Fernandes'});
-       assert.equal('&lt;p&gt;Rodrigo Fernandes&lt;/p&gt;', result);
-     });
-+
-+    it('should allow templates to be overridden with uncompiled templates', function() {
-+      var emptyDiffTemplate = '&lt;p&gt;&lt;/p&gt;';
-+
-+      var config = {rawTemplates: {'generic-empty-diff': emptyDiffTemplate}};
-+      var hoganUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)(config);
-+      var result = hoganUtils.render('generic', 'empty-diff', {myName: 'Rodrigo Fernandes'});
-+      assert.equal('&lt;p&gt;Rodrigo Fernandes&lt;/p&gt;', result);
-+    });
-+
-+    it('should allow templates to be overridden giving priority to compiled templates', function() {
-+      var emptyDiffTemplate = HoganJsUtils.compile('&lt;p&gt;&lt;/p&gt;');
-+      var emptyDiffTemplateUncompiled = '&lt;p&gt;Not used!&lt;/p&gt;';
-+
-+      var config = {
-+        templates: {'generic-empty-diff': emptyDiffTemplate},
-+        rawTemplates: {'generic-empty-diff': emptyDiffTemplateUncompiled}
-+      };
-+      var hoganUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)(config);
-+      var result = hoganUtils.render('generic', 'empty-diff', {myName: 'Rodrigo Fernandes'});
-+      assert.equal('&lt;p&gt;Rodrigo Fernandes&lt;/p&gt;', result);
-+    });
-   });
- });
-</code></pre>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="code"/><summary type="html"><![CDATA[this is how you can display code diffs]]></summary></entry></feed>
+</code></pre> <p>For more examples, check out the <a href="https://google.github.io/typograms/#examples">typograms documentation</a>.</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="diagrams"/><summary type="html"><![CDATA[this is what included typograms code could look like]]></summary></entry><entry><title type="html">a post that can be cited</title><link href="https://ziya-jiang.github.io/blog/2024/post-citation/" rel="alternate" type="text/html" title="a post that can be cited"/><published>2024-04-28T15:06:00+00:00</published><updated>2024-04-28T15:06:00+00:00</updated><id>https://ziya-jiang.github.io/blog/2024/post-citation</id><content type="html" xml:base="https://ziya-jiang.github.io/blog/2024/post-citation/"><![CDATA[<p>This is an example post that can be cited. The content of the post ends here, while the citation information is automatically provided below. The only thing needed is for you to set the <code class="language-plaintext highlighter-rouge">citation</code> key in the front matter to <code class="language-plaintext highlighter-rouge">true</code>.</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="citation"/><summary type="html"><![CDATA[this is what a post that can be cited looks like]]></summary></entry></feed>
