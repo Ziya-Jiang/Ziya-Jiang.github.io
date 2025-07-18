@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Summer Vacation Research Summary
-date: 2025-07-18 11:59:00-0400
+date: 2025-07-18 12:00:00-0400
 description: A comprehensive summary of my three-week summer research progress, including concept map integration, system demonstrations, and future plans
 tags: research computer-vision robotics
 categories: research-updates
