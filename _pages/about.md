@@ -11,7 +11,7 @@ profile:
   more_info: >
     <p>+86 15846615927</p>
     <p>
-      Room 214, Building B, Peking University Campus, Shenzhen University Town, Lishui Road, Xili Town, Nanshan District
+      Room 214, Building B, Peking University Campus, Nanshan District
     </p>
     <p>Shenzhen, Guangdong</p>
 
