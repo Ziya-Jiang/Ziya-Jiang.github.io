@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Room 214, Building B, Peking University Campus, Nanshan District. 
+subtitle: <a href='#'>Affiliations</a>. Room 214, Building B, Peking University Campus, Nanshan District.
 
 profile:
   align: right
