@@ -72,7 +72,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-yanbot-analysis",
+            },{id: "post-",
+        
+          title: "",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/2025-07-18-ros-package/";
+          
+        },
+      },{id: "post-yanbot-analysis",
         
           title: "YanBot Analysis",
         
@@ -114,17 +125,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2025/github-management/";
-          
-        },
-      },{id: "post-",
-        
-          title: "",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/2025-07-18-ros-package/";
           
         },
       },{id: "post-a-post-with-plotly-js",
