@@ -261,7 +261,7 @@
       "summary": "Algorithm Engineer for Shenzhen Stability Support Project. Implemented a Visual-Inertial Odometry (VIO) algorithm optimized for dynamic, complex supermarket environments. Fused 2D LiDAR and occupancy grids into a multi-sensor framework, overcoming challenges posed by dynamic obstacles and lighting changes.",
       "highlights": ["Visual-Inertial Odometry (VIO)", "Multi-Sensor Fusion", "2D LiDAR Integration", "Dynamic Environment Navigation"],
       "startDate": "",
-      "endDate": "",
+      "endDate": "2024.7",
       "url": ""
     }
   ]
