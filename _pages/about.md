@@ -25,11 +25,11 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I was born in Harbin, the frigid northern city, and frequently visited my father's robotics laboratory since childhood. Each time I enjoyed tinkering with the bizarre robotic limbs and even components inside. 
+I was born in Harbin, the frigid northern city, and frequently visited my father's robotics laboratory since childhood. Each time I enjoyed tinkering with the bizarre robotic limbs and even components inside.
 
 I firmly believed that one day I would become their master and endow them with a sacred soul. I believe they deserve a chance to live once, just as God has granted us. Even in that era when embodied intelligence was completely unfashionable, what we did was no different from now, because these are things that my forebears dedicated their entire lives to.
 
- We don't need to chase profits, we only need to pass on the faith, because only correct faith is the most reliable engine that drives humanity forward. Only correct faith can allow us to face our "predestined death" with equanimity.
+We don't need to chase profits, we only need to pass on the faith, because only correct faith is the most reliable engine that drives humanity forward. Only correct faith can allow us to face our "predestined death" with equanimity.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 

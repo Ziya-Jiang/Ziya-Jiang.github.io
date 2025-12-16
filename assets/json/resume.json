@@ -34,7 +34,13 @@
       "startDate": "2023-09-01",
       "endDate": "2026-07-01",
       "score": "3.95/4",
-      "courses": ["Robot Techonology", "Digital Image Processing", "Principles of Machine Learning", "Scientific Paper Writing", "Fundamentals of Digital Media Technology"]
+      "courses": [
+        "Robot Techonology",
+        "Digital Image Processing",
+        "Principles of Machine Learning",
+        "Scientific Paper Writing",
+        "Fundamentals of Digital Media Technology"
+      ]
     },
     {
       "institution": "Dalian University of Technology, Dalian, China",
