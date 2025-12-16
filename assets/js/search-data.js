@@ -506,51 +506,26 @@ ninja.data = [{
           section: "News",},{id: "news-this-website-has-officially-started-updating-and-will-be-maintained-for-life",
           title: 'This website has officially started updating and will be maintained for life.',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-text-driven-simulation-scene-generation",
+          title: 'Text-Driven Simulation Scene Generation',
+          description: "Guangdong Flagship Project – text-to-3D simulation scene generation",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-intelligent-dual-arm-nursing-robot-system",
+          title: 'Intelligent Dual-Arm Nursing Robot System',
+          description: "National Key R&amp;D Program – embodied AI for nursing robots",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+            },},{id: "projects-multi-robot-distributed-perception",
+          title: 'Multi-Robot Distributed Perception',
+          description: "NSFC Project – collaborative perception for robot clusters",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+            },},{id: "projects-unmanned-supermarket-navigation",
+          title: 'Unmanned Supermarket Navigation',
+          description: "Shenzhen Stability Support Project – robust navigation in dynamic supermarkets",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
             },},{
         id: 'social-email',
         title: 'email',
