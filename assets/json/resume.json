@@ -29,7 +29,7 @@
       "institution": "Peking University, Beijing, China",
       "location": "Shenzhen, China",
       "url": "https://english.pku.edu.cn/",
-      "area": "Robotics and Artificial Intelligence",
+      "area": "Computer Application Technology",
       "studyType": "Master",
       "startDate": "2023-09-01",
       "endDate": "2026-07-01",
@@ -50,147 +50,215 @@
       "studyType": "Bachelor",
       "startDate": "2019-09-01",
       "endDate": "2023-07-01",
-      "score": "91.5/100",
+      "score": "3.72/4 (91.5/100)",
       "courses": []
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "National Scholarship",
+      "date": "12.2022",
+      "awarder": "Ministry of Education of the People's Republic of China",
+      "url": "",
+      "summary": "The highest honor scholarship in China, awarded to outstanding students with excellent academic performance and moral character."
+    },
+    {
+      "title": "Academic Excellence Scholarship",
+      "date": "10.2024",
+      "awarder": "Peking University",
+      "url": "",
+      "summary": "Awarded for outstanding academic performance in the academic year."
+    },
+    {
+      "title": "Merit Student",
+      "date": "12.2022",
+      "awarder": "Dalian University of Technology",
+      "url": "",
+      "summary": "Awarded to students with excellent academic performance and moral character."
+    },
+    {
+      "title": "Learning Excellence Award (First Prize)",
+      "date": "9.2022",
+      "awarder": "Dalian University of Technology",
+      "url": "",
+      "summary": "Awarded for outstanding academic achievement."
+    },
+    {
+      "title": "Learning Excellence Award (First Prize)",
+      "date": "9.2021",
+      "awarder": "Dalian University of Technology",
+      "url": "",
+      "summary": "Awarded for outstanding academic achievement."
+    },
+    {
+      "title": "Ethic Award",
+      "date": "9.2022",
+      "awarder": "Dalian University of Technology",
+      "url": "",
+      "summary": "Awarded for exemplary moral character and ethical conduct."
+    },
+    {
+      "title": "Outstanding Graduate",
+      "date": "6.2023",
+      "awarder": "Dalian University of Technology",
+      "url": "",
+      "summary": "Awarded to graduates who have demonstrated outstanding academic performance, leadership, and overall excellence throughout their university studies."
     }
   ],
   "certificates": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "name": "Student Member",
+      "date": "9.2025",
+      "issuer": "China Society of Image and Graphics",
+      "url": "",
+      "icon": "fa-solid fa-certificate"
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
+      "name": "College English Test Band 6 (CET-6)",
+      "date": "9.2020",
+      "issuer": "Ministry of Education, China",
+      "url": "",
+      "icon": "fa-solid fa-language"
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
+      "name": "College English Test Band 4 (CET-4)",
+      "date": "12.2019",
+      "issuer": "Ministry of Education, China",
+      "url": "",
+      "icon": "fa-solid fa-language"
     }
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "Uncertainty-Driven 3D Gaussian Splatting for Robust Real-Time RGB-D SLAM",
+      "publisher": "IEEE Transactions on Automation Science and Engineering",
+      "releaseDate": "2025-01-01",
+      "url": "",
+      "summary": "First author. Proposes an uncertainty-driven approach for robust real-time SLAM using 3D Gaussian Splatting. Currently under review."
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+      "name": "TAMBRIDGE: Bridging Frame-Centered Tracking and 3D Gaussian Splatting for Enhanced SLAM",
+      "publisher": "ArXiv",
+      "releaseDate": "2024-05-30",
+      "url": "https://arxiv.org/abs/2405.19614",
+      "summary": "First author. Introduces a novel framework bridging frame-centered tracking with 3D Gaussian Splatting for enhanced SLAM performance. Has 5 citations and is to be submitted to RAL."
     },
     {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "A Unified End-To-End Network for Category-Level & Instance-Level Object Pose Estimation from RGB Images",
+      "publisher": "2025 IEEE International Conference on Robotics and Automation (ICRA 2025)",
+      "releaseDate": "2025-09-02",
+      "url": "https://ieeexplore.ieee.org/iel8/11127273/11127223/11128247.pdf",
+      "summary": "Co-author. Presents a unified end-to-end network for both category-level and instance-level object pose estimation from RGB images."
+    },
+    {
+      "name": "Debiased Multiplex Tokenizer for Efficient Map-Free Visual Relocalization",
+      "publisher": "The Fortieth AAAI Conference on Artificial Intelligence (AAAI-26)",
+      "releaseDate": "2025-01-01",
+      "url": "",
+      "summary": "Co-author. Proposes a debiased multiplex tokenizer approach for efficient map-free visual relocalization. Accepted for presentation."
+    },
+    {
+      "name": "Object-oriented Novel Visual Odometry Architecture: An Exploratory Study",
+      "publisher": "2023 Asian Conference on Artificial Intelligence Technology (ACAIT23)",
+      "releaseDate": "2024-01-15",
+      "url": "",
+      "summary": "First author. Presents an object-oriented novel visual odometry architecture. Accepted for conference presentation."
     }
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "name": "Robotics & Computer Vision",
+      "level": "Advanced",
+      "icon": "fa-solid fa-robot",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Robot Localization and Navigation",
+        "SLAM (Simultaneous Localization and Mapping)",
+        "3D Gaussian Splatting",
+        "Visual Odometry",
+        "Object Pose Estimation",
+        "Visual Relocalization",
+        "RGB-D SLAM"
       ]
+    },
+    {
+      "name": "Machine Learning & AI",
+      "level": "Advanced",
+      "icon": "fa-solid fa-brain",
+      "keywords": ["Deep Learning", "Computer Vision", "MultiModal Machine Learning", "Neural Networks", "PyTorch", "TensorFlow"]
+    },
+    {
+      "name": "Programming",
+      "level": "Advanced",
+      "icon": "fa-solid fa-code",
+      "keywords": ["Python", "C++", "ROS (Robot Operating System)", "Linux", "Git"]
     }
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "Chinese (Mandarin)",
       "fluency": "Native speaker",
       "icon": ""
     },
     {
       "language": "English",
-      "fluency": "Fluent",
+      "fluency": "Proficient (CET-6: 541, CET-4: 602)",
       "icon": ""
     }
   ],
   "interests": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
+      "name": "Robotics & Embodied AI",
+      "icon": "fa-solid fa-robot",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Robot Localization and Navigation",
+        "Embodied Robotics",
+        "SLAM",
+        "3D Gaussian Splatting",
+        "Visual Odometry",
+        "World Models for Robotics"
       ]
     }
   ],
   "references": [
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "Prof. Lei Wang",
+      "icon": "fa-solid fa-user-tie",
+      "reference": "Professor, Dalian University of Technology. Bachelor Supervisor. Email: lei.wang@dlut.edu.cn"
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "Prof. Hui Xie",
+      "icon": "fa-solid fa-user-tie",
+      "reference": "Professor, Harbin Institute of Technology. Academic Mentor. Email: xiehui@hit.edu.cn"
     }
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Gaussian Memory Fields as Actionable World Models for Embodied Robotics",
+      "summary": "Research proposal for PhD studies. Proposes building an actionable world model using 3D Gaussian Splatting (3DGS) as foundation, introducing Gaussian Memory Fields (GMF) as a dynamic simulation engine for embodied robotics.",
+      "highlights": [
+        "Active Semantic Mapping for Onboard Simulation",
+        "Physics-Aware Hybrid Control",
+        "Real-time Deployment via Robust State Estimation"
+      ],
+      "startDate": "2025-01-01",
+      "endDate": "",
+      "url": ""
+    },
+    {
+      "name": "TAMBRIDGE: Enhanced SLAM with 3D Gaussian Splatting",
+      "summary": "Developed a novel framework bridging frame-centered tracking with 3D Gaussian Splatting for enhanced SLAM performance. Published on ArXiv with 5 citations.",
+      "highlights": ["3D Gaussian Splatting", "Frame-Centered Tracking", "Real-time SLAM"],
+      "startDate": "2024-01-01",
+      "endDate": "2024-05-30",
+      "url": "https://arxiv.org/abs/2405.19614"
+    },
+    {
+      "name": "Uncertainty-Driven RGB-D SLAM",
+      "summary": "Proposed an uncertainty-driven approach for robust real-time SLAM using 3D Gaussian Splatting. Currently under review at IEEE Transactions on Automation Science and Engineering.",
+      "highlights": ["Uncertainty Estimation", "3D Gaussian Splatting", "Real-time RGB-D SLAM"],
+      "startDate": "2024-01-01",
+      "endDate": "",
+      "url": ""
     }
   ]
 }
