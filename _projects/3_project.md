@@ -5,7 +5,7 @@ description: NSFC Project – collaborative perception for robot clusters
 img: assets/img/ROS.png
 importance: 3
 category: work
-related_publications: false
+related_publications: true
 ---
 
 ### Overview
@@ -31,3 +31,7 @@ This project builds a **multi-robot distributed perception system** that enables
 - Multi-robot systems and distributed architecture
 - ROS-based communication middleware
 - Visual SLAM and co-visibility graph reasoning
+
+### Related Publications
+
+Key methods and results from this project are described in the following papers {% cite jiang2024tambridge jiang2025uncertainty %}.
