@@ -495,13 +495,13 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+            },},{id: "news-site-maintenance-amp-recent-updates",
+          title: 'Site Maintenance &amp;amp; Recent Updates',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+            },},{id: "news-this-website-has-been-fully-personalized-and-synchronized-with-my-current-profile-cv-publications-and-projects-for-a-detailed-change-log-and-long-term-maintenance-plan-please-see-the-announcement-site-maintenance-amp-amp-recent-updates",
+          title: 'This website has been fully personalized and synchronized with my current profile, CV,...',
           description: "",
           section: "News",},{id: "news-this-website-has-officially-started-updating-and-will-be-maintained-for-life",
           title: 'This website has officially started updating and will be maintained for life.',
