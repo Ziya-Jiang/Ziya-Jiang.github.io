@@ -22,40 +22,30 @@
       }
     ]
   },
-  "work": [
-    {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
+  "work": [],
+  "volunteer": [],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "Peking University, Beijing, China",
+      "location": "Shenzhen, China",
+      "url": "https://english.pku.edu.cn/",
+      "area": "Robotics and Artificial Intelligence",
+      "studyType": "Master",
+      "startDate": "2023-09-01",
+      "endDate": "2026-07-01",
+      "score": "3.95/4",
+      "courses": ["Robot Techonology", "Digital Image Processing", "Principles of Machine Learning", "Scientific Paper Writing", "Fundamentals of Digital Media Technology"]
+    },
+    {
+      "institution": "Dalian University of Technology, Dalian, China",
+      "location": "Dalian, China",
+      "url": "https://en.dlut.edu.cn/",
+      "area": "Software Engineering",
+      "studyType": "Bachelor",
+      "startDate": "2019-09-01",
+      "endDate": "2023-07-01",
+      "score": "91.5/100",
+      "courses": []
     }
   ],
   "awards": [
