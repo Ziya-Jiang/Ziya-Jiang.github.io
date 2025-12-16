@@ -233,30 +233,34 @@
   ],
   "projects": [
     {
-      "name": "Gaussian Memory Fields as Actionable World Models for Embodied Robotics",
-      "summary": "Research proposal for PhD studies. Proposes building an actionable world model using 3D Gaussian Splatting (3DGS) as foundation, introducing Gaussian Memory Fields (GMF) as a dynamic simulation engine for embodied robotics.",
-      "highlights": [
-        "Active Semantic Mapping for Onboard Simulation",
-        "Physics-Aware Hybrid Control",
-        "Real-time Deployment via Robust State Estimation"
-      ],
-      "startDate": "2025-01-01",
+      "name": "Text-Driven Simulation Scene Generation",
+      "summary": "Technical Lead for Guangdong Flagship Project. Defined the technical architecture for end-to-end scene generation driven by natural language. Integrated Unreal Engine (UE) with 2D Gaussian Splatting to automate the construction of high-fidelity 3D scenes from textual descriptions.",
+      "highlights": ["Natural Language Processing", "Unreal Engine Integration", "2D Gaussian Splatting", "3D Scene Generation"],
+      "startDate": "",
       "endDate": "",
       "url": ""
     },
     {
-      "name": "TAMBRIDGE: Enhanced SLAM with 3D Gaussian Splatting",
-      "summary": "Developed a novel framework bridging frame-centered tracking with 3D Gaussian Splatting for enhanced SLAM performance. Published on ArXiv with 5 citations.",
-      "highlights": ["3D Gaussian Splatting", "Frame-Centered Tracking", "Real-time SLAM"],
-      "startDate": "2024-01-01",
-      "endDate": "2024-05-30",
-      "url": "https://arxiv.org/abs/2405.19614"
+      "name": "Intelligent Dual-Arm Nursing Robot System",
+      "summary": "Core Developer for National Key R&D Program. Developed embodied AI algorithms for the \"Gaussian Memory Field,\" enabling environment understanding and natural language interaction. Deployed the system on the DashGo platform, closing the loop between perception, decision-making, and interaction in nursing scenarios.",
+      "highlights": ["Embodied AI", "Gaussian Memory Field", "Natural Language Interaction", "DashGo Platform Deployment"],
+      "startDate": "",
+      "endDate": "",
+      "url": ""
     },
     {
-      "name": "Uncertainty-Driven RGB-D SLAM",
-      "summary": "Proposed an uncertainty-driven approach for robust real-time SLAM using 3D Gaussian Splatting. Currently under review at IEEE Transactions on Automation Science and Engineering.",
-      "highlights": ["Uncertainty Estimation", "3D Gaussian Splatting", "Real-time RGB-D SLAM"],
-      "startDate": "2024-01-01",
+      "name": "Multi-Robot Distributed Perception",
+      "summary": "System Architect for NSFC Project. Built a cluster experimental platform using DashGo robots and designed a distributed communication interface within ROS. Formulated a collaborative visual localization algorithm based on co-visibility, significantly enhancing cluster robustness in complex environments.",
+      "highlights": ["Multi-Robot Systems", "ROS Distributed Communication", "Collaborative Visual Localization", "Co-visibility Algorithms"],
+      "startDate": "",
+      "endDate": "",
+      "url": ""
+    },
+    {
+      "name": "Unmanned Supermarket Navigation",
+      "summary": "Algorithm Engineer for Shenzhen Stability Support Project. Implemented a Visual-Inertial Odometry (VIO) algorithm optimized for dynamic, complex supermarket environments. Fused 2D LiDAR and occupancy grids into a multi-sensor framework, overcoming challenges posed by dynamic obstacles and lighting changes.",
+      "highlights": ["Visual-Inertial Odometry (VIO)", "Multi-Sensor Fusion", "2D LiDAR Integration", "Dynamic Environment Navigation"],
+      "startDate": "",
       "endDate": "",
       "url": ""
     }
