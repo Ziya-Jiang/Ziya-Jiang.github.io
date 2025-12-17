@@ -72,7 +72,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-",
+            },{id: "post-master-academic-journey-overview",
+        
+          title: "Master Academic Journey Overview",
+        
+        description: "A comprehensive summary of my threqe-week summer research progress,including concept map integration, system demonstrations, and future plans",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/master-overview/";
+          
+        },
+      },{id: "post-",
         
           title: "",
         
@@ -91,7 +102,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/YanBot-analysis/";
+            window.location.href = "/blog/2025/YanBot-analysis-copy/";
           
         },
       },{id: "post-3dgs-cd算法深度解析",
