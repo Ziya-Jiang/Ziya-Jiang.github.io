@@ -8,7 +8,7 @@ categories: research-updates
 ---
 
 {% include figure.liquid
-    path="assets/img/robot_remake.png"
+    path="assets/img/robot.png"
     title="Master Thesis Overview"
     caption="图 1. 本图展示了硕士阶段研究工作的整体结构，包括研究背景、核心方法（如 Gaussian Memory Field 与 3D Gaussian Splatting）、主要应用场景以及论文之间的关系。自下而上依次表示基础理论与工具、系统方法设计和上层应用/项目，实现从方法到真实机器人系统落地的完整闭环。"
     class="img-fluid rounded z-depth-1"
