@@ -72,7 +72,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-",
+            },{id: "post-sam3d-with-real-scale",
+        
+          title: "SAM3D with Real Scale",
+        
+        description: "SAM3D can obtain real scale by inputting RGB-D and instrinsic parameters,",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/SAM3D-with-Scale/";
+          
+        },
+      },{id: "post-",
         
           title: "",
         
@@ -92,17 +103,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2025/graspnet-on-desk2-copy/";
-          
-        },
-      },{id: "post-graspnet-on-tum-rgbd",
-        
-          title: "Graspnet on TUM-RGBD",
-        
-        description: "Implementation of Graspnet on desk2, next step is intergrate SAM3 with Graspnet",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/SAM3D-with-Scale/";
           
         },
       },{id: "post-master-academic-journey-overview",
