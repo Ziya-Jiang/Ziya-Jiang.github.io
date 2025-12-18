@@ -76,11 +76,22 @@ ninja.data = [{
         
           title: "Master Academic Journey Overview",
         
+        description: "Implementation of Graspnet on desk2, next step is intergrate SAM3 with Graspnet",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/graspnet-on-desk2/";
+          
+        },
+      },{id: "post-master-academic-journey-overview",
+        
+          title: "Master Academic Journey Overview",
+        
         description: "A comprehensive summary of my threqe-week summer research progress,including concept map integration, system demonstrations, and future plans",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/master-overview/";
+            window.location.href = "/blog/2025/master-overview-copy/";
           
         },
       },{id: "post-",
