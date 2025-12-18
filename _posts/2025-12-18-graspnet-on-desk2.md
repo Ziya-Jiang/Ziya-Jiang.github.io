@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Master Academic Journey Overview
+title: Graspnet on TUM-RGBD
 date: 2025-12-18 10:55:00-0400
 description: Implementation of Graspnet on desk2, next step is intergrate SAM3 with Graspnet
 tags: research computer-vision robotics
