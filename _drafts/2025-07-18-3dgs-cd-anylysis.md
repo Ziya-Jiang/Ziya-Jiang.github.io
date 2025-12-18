@@ -1,11 +1,14 @@
 ---
 layout: post
-title: Summer Vacation Research Summary
+title: 3dgs-cd analysis
 date: 2025-07-18 15:50:00-0400
-description: A comprehensive summary of my three-week summer research progress, including concept map integration, system demonstrations, and future plans
+description: A comprehensive summary of my threqe-week summer research progress,including concept map integration, system demonstrations, and future plans
 tags: research computer-vision robotics
 categories: research-updates
 ---
+
+1. 算法输入：RGB 序列变化前、RGB 序列变化后
+2. 处理阶段：3DGS 场构建 -> 定位变化后拍摄相机位姿 -> 利用位姿渲染变化前的对应位姿的图像,利用 EfficientSAM 计算出潜在的变化区域 -> 把变化区域交给 Efficent-SAM 做精准分割（对旧渲染和变化后拍摄分别做） -> 利用渲染图和渲染深度将旧物体稀疏点云提取出来形成物体模板 -> 模板投影到新图像中，如果有足够匹配则是移动，匹配不到就是删除-> 利用 2D-3D 匹配点估计初位姿然后旋转物体高斯，利用光度误差做精估计-> 遮挡处理：先按需要把高斯模型（含已移动的物体）渲染深度，再检查每个像素回投后的真实深度是否落在物体体素里，否的话视为被遮挡并抹掉。这样就能得到任意视角下无穿帮的 2D 掩码。
 
 As of July 1st, my summer vacation officially began, and three weeks have already passed. Here's a chronological summary of my research progress and achievements.
 
