@@ -83,17 +83,6 @@ ninja.data = [{
             window.location.href = "/blog/2025/graspnet-on-desk2/";
           
         },
-      },{id: "post-master-academic-journey-overview",
-        
-          title: "Master Academic Journey Overview",
-        
-        description: "A comprehensive summary of my threqe-week summer research progress,including concept map integration, system demonstrations, and future plans",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/master-overview-copy/";
-          
-        },
       },{id: "post-",
         
           title: "",
@@ -103,6 +92,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2025/2025-07-18-ros-package/";
+          
+        },
+      },{id: "post-master-academic-journey-overview",
+        
+          title: "Master Academic Journey Overview",
+        
+        description: "A comprehensive summary of my threqe-week summer research progress,including concept map integration, system demonstrations, and future plans",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/master-overview-copy/";
           
         },
       },{id: "post-yanbot-analysis",
@@ -553,35 +553,7 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
-        },
-      },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
-        },
-      },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/feed.xml", "_blank");
-        },
-      },{
-        id: 'social-scholar',
-        title: 'Google Scholar',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
-        },
-      },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
+          window.open("mailto:%6A%70%66@%73%74%75.%70%6B%75.%65%64%75.%63%6E", "_blank");
         },
       },{
       id: 'light-theme',
