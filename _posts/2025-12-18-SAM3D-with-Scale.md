@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Graspnet on TUM-RGBD
-date: 2025-12-18 10:55:00-0400
-description: Implementation of Graspnet on desk2, next step is intergrate SAM3 with Graspnet
+title: SAM3D with Real Scale
+date: 2025-12-18 23:09:00-0400
+description: SAM3D can obtain real scale by inputting RGB-D and instrinsic parameters,
 tags: research computer-vision robotics
 categories: research-updates
 ---
