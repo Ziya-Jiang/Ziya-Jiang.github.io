@@ -72,9 +72,9 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-master-academic-journey-overview",
+            },{id: "post-graspnet-on-tum-rgbd",
         
-          title: "Master Academic Journey Overview",
+          title: "Graspnet on TUM-RGBD",
         
         description: "Implementation of Graspnet on desk2, next step is intergrate SAM3 with Graspnet",
         section: "Posts",
